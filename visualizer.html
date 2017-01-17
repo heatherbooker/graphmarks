@@ -38,7 +38,7 @@ for (i=0; i<innode.length; i++) {
   return outlinks
 }
 
-d3.json("bookmarks.json", function(error, nodette) {
+d3.json("links.json", function(error, nodette) {
   nodette= nodette.slice(0,100) // COMMENT THIS OUT TO SEE ALL THE DATA !!
   tags=[]
   for (i=0; i<nodette.length/3; i++){
