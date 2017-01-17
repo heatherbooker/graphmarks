@@ -2,7 +2,7 @@
 
 ### to run:
 ```bash
-git clone <the url of this project...click the 'clone' button on this page>
+git clone https://github.com/heatherbooker/bookmark-visualizer.git
 ```
 now `cd` to wherever you exported your bookmarks from chrome to, then:
 ```bash
