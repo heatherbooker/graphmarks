@@ -1,7 +1,7 @@
 const Parser = require('./Parser.js');
 
 
-const regex = /\*\s\[(.*)\]\((.*)\)/g;
+const regex = /[\*|\-]\s\[(.*)\]\((.*)\)/g;
 const isTitleFirst = true;
 const fileExtension = '.md';
 
