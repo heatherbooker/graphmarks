@@ -68,7 +68,7 @@ d3.json("links.json", function(error, nodette) {
       .attr("fill", function(d) { return color(d.group); })
 
   var txt=node.append("text")
-      .text(function(d) { return d.id; })
+      .text(function(d) { return d.title; })
 
     circle.call(d3.drag()
           .on("start", dragstarted)
