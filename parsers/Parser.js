@@ -3,28 +3,6 @@ const readline = require('readline');
 const path = require('path');
 
 
-// const outputFormat = {
-//   // Urls and tags are both nodes.
-//   nodes: [{
-//     id: url,
-//     title: titleOfLink,
-//     group: 1
-//   },
-//   ...
-//   {
-//     id: sequentialId,
-//     title: tagName,
-//     group: 2
-//   },
-//   ...
-//   ],
-//   links: [{
-//     source: tagId,
-//     target: urlId,
-//     value: 1 // Strength of link.
-//   }]
-// };
-
 function getFilePath(input, fileExtension) {
 
   let fileName = input.trim();
@@ -77,6 +55,12 @@ function parseData(data, tagRegex, urlRegex, isTitleFirst) {
   };
 
   let firstTag, secondTag, dataForThisTag;
+
+  if (!tagRegex) {
+    let urls = parseUrls(data, urlRegex, isTitleFirst);
+    infoForGraph.nodes = urls;
+    return infoForGraph;
+  }
 
   while (firstTag = tagRegex.exec(data)) {
 
