@@ -11,6 +11,12 @@
   stroke: #fff;
   stroke-width: 1.5px;
 }
+.nodes text{
+  display: none;
+}
+.nodes:hover text{
+  display: inline;
+}'
 
 </style>
 <svg width="1440" height="803"></svg>
@@ -38,11 +44,10 @@ for (i=0; i<innode.length; i++) {
   return outlinks
 }
 
-d3.json("links.json", function(error, nodette) {
-  nodette= nodette.slice(0,100) // COMMENT THIS OUT TO SEE ALL THE DATA !!
+d3.json("bookmarks.json", function(error, nodette) {
   tags=[]
   for (i=0; i<nodette.length/3; i++){
-    tags.push({'id':"TAG"+i, 'group':2 })
+    tags.push({'title':"TAG"+i, 'id':"TAG"+i, 'group':2 })
   }
 
   graph= {'nodes':nodette.concat(tags), 'links':makerandomlinks(nodette, tags)}
@@ -56,12 +61,11 @@ d3.json("links.json", function(error, nodette) {
       .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
-      .attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)
     .enter()
     .append('g')
-
+    .attr("class", function(d) { return d.group==2 ? "tag": "nodes"; })
 
   var circle=node.append("circle")
       .attr("r", 7)
@@ -69,6 +73,7 @@ d3.json("links.json", function(error, nodette) {
 
   var txt=node.append("text")
       .text(function(d) { return d.title; })
+      .attr('class','txt');
 
     circle.call(d3.drag()
           .on("start", dragstarted)
@@ -89,8 +94,8 @@ d3.json("links.json", function(error, nodette) {
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
     txt
-        .attr("x", function(d) { return d.x; })
-        .attr("y", function(d) { return d.y; });
+        .attr("x", function(d) { return d.x+10; })
+        .attr("y", function(d) { return d.y+10; });
     circle
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
