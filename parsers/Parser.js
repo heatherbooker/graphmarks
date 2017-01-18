@@ -3,33 +3,120 @@ const readline = require('readline');
 const path = require('path');
 
 
-function parseLinks(data, regex, isTitleFirst) {
+// const outputFormat = {
+//   // Urls and tags are both nodes.
+//   nodes: [{
+//     id: url,
+//     title: titleOfLink,
+//     group: 1
+//   },
+//   ...
+//   {
+//     id: sequentialId,
+//     title: tagName,
+//     group: 2
+//   },
+//   ...
+//   ],
+//   links: [{
+//     source: tagId,
+//     target: urlId,
+//     value: 1 // Strength of link.
+//   }]
+// };
 
-  const links = [];
-  let result;
+function getFilePath(input, fileExtension) {
 
-  while (result = regex.exec(data)) {
-    const newLink = {group: 1}; // Group is arbitrary.
-    if (isTitleFirst) {
-      newLink.title = result[1];
-      newLink.id = result[2];
-    } else {
-      newLink.id = result[1];
-      newLink.title = result[2];
-    }
-    links.push(newLink);
+  let fileName = input.trim();
+
+  let fileExtRegex = new RegExp('\\' + fileExtension);
+
+  if (!fileExtRegex.test(fileName)) {
+    fileName += fileExtension;
   }
 
-  return links;
+  return path.join(process.cwd(), fileName);
+}
+
+function parseUrls(data, urlRegex, isTitleFirst) {
+
+  const urls = [];
+  let result;
+
+  while (result = urlRegex.exec(data)) {
+    const node = {group: 1}; // Group is 1 for urls, 2 for tags.
+    if (isTitleFirst) {
+      node.title = result[1];
+      node.id = result[2];
+    } else {
+      node.id = result[1];
+      node.title = result[2];
+    }
+
+    urls.push(node);
+  }
+
+  return urls;
+}
+
+function createLinks(tagId, urls) {
+  return urls.map(url => {
+    return {
+      source: tagId,
+      target: url.id,
+      value: 1
+    };
+  });
+}
+
+function parseData(data, tagRegex, urlRegex, isTitleFirst) {
+
+  const infoForGraph = {
+    nodes: [],
+    links: []
+  };
+
+  let firstTag, secondTag, dataForThisTag;
+
+  while (firstTag = tagRegex.exec(data)) {
+
+    let tag = {
+      id: firstTag[1],
+      title: firstTag[1],
+      group: 2
+    };
+
+    infoForGraph.nodes.push(tag);
+
+    // Find next tag in order to collect only urls under this heading.
+    if (secondTag = tagRegex.exec(data)) {
+
+      // But we aren't consuming it yet!
+      tagRegex.lastIndex = secondTag.index;
+
+      dataForThisTag = data.slice(firstTag.index, secondTag.index);
+
+      let urls = parseUrls(dataForThisTag, urlRegex, isTitleFirst);
+      let links = createLinks(tag.id, urls);
+      infoForGraph.nodes.push(...urls);
+      infoForGraph.links.push(...links);
+
+    } else {
+      break;
+    }
+  }
+
+  return infoForGraph;
 
 }
 
 class Parser {
 
-  constructor(fileExtension, regex, isTitleFirst) {
+  constructor(fileExtension, tagRegex, urlRegex, isTitleFirst) {
 
     this.fileExtension = fileExtension;
-    this.regex = regex;
+    this.tagRegex = tagRegex;
+    this.urlRegex = urlRegex;
     this.isTitleFirst = isTitleFirst;
 
     this.rl = readline.createInterface({
@@ -43,12 +130,7 @@ class Parser {
 
       this.rl.close();
 
-      let fileName = response.trim();
-      let fileExtRegex = new RegExp('\\' + this.fileExtension);
-      if (!fileExtRegex.test(response)) {
-        fileName += this.fileExtension;
-      }
-      const filePath = path.join(process.cwd(), fileName);
+      const filePath = getFilePath(response, this.fileExtension);
 
       fs.readFile(filePath, 'utf8', (err, data) => {
 
@@ -56,9 +138,9 @@ class Parser {
           return console.error(err);
         }
 
-        const links = parseLinks(data, this.regex, this.isTitleFirst);
+        const infoForGraph = parseData(data, this.tagRegex, this.urlRegex, this.isTitleFirst);
 
-        fs.writeFile('links.json', JSON.stringify(links, null, 2));
+        fs.writeFile('links.json', JSON.stringify(infoForGraph, null, 2));
       });
 
     });

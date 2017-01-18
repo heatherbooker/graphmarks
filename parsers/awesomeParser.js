@@ -1,10 +1,11 @@
 const Parser = require('./Parser.js');
 
-
-const regex = /[\*|\-]\s\[(.*)\]\((.*)\)/g;
+// need to handle tags within tags
+const tagRegex = /###\s(.+?)\n/g;
+const urlRegex = /[\*|\-]\s\[(.*)\]\((.*)\)/g;
 const isTitleFirst = true;
 const fileExtension = '.md';
 
-const awesomeParser = new Parser(fileExtension, regex, isTitleFirst);
+const awesomeParser = new Parser(fileExtension, tagRegex, urlRegex, isTitleFirst);
 
 awesomeParser.parse();
