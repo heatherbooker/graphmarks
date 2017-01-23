@@ -1,0 +1,23 @@
+{
+  "name": "bookmark-visualizer",
+  "version": "1.0.0",
+  "description": "### to run: ```bash git clone https://github.com/heatherbooker/bookmark-visualizer.git ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heatherbooker/bookmark-visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heatherbooker/bookmark-visualizer/issues"
+  },
+  "homepage": "https://github.com/heatherbooker/bookmark-visualizer#readme",
+  "dependencies": {
+    "cheerio": "0.22.0"
+  }
+}
