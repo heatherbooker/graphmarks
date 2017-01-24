@@ -3,20 +3,16 @@
 ### to run:
 ```bash
 git clone https://github.com/heatherbooker/bookmark-visualizer.git
+cd bookmark-visualizer
+npm install
+node parsers/awesomeParser.js # The program will ask you for a file name:
+testdata/awesome.html
 ```
+At this point, the data for the visualizer should be in a file of the same name as the one you named but with a .json extension (ex. testdata/awesome.json).
+```js
+// What should you do to run the visualizer with this file?
+```
+#### to use your own awesome-<whatever> list:
+Go to an awesome-<whatever> list on github, right-click the main page and click "view source", then save what opens, and input the path to that file when asked after running `node parsers/awesomeParser.js` from the bookmark-visualizer directory.
 
-### for exported chrome bookmarks (.html):
-export your bookmarks from chrome (use Bookmark Manager -> Organize), then:
-```bash
-node parsers/bookmarkParser.js
-```
 
-### for awesome-<whatever> lists (.md):
-save the raw .md version of an awesome list from Github, then:
-```bash
-node parsers/awesomeParser.js
-```
-cool, check out your list of bookmarks/links!
-```bash
-vim links.json
-```
