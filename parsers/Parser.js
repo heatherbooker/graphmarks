@@ -124,7 +124,7 @@ class Parser {
 
         const infoForGraph = parseData(data, this.tagRegex, this.urlRegex, this.isTitleFirst);
 
-        fs.writeFile('links.json', JSON.stringify(infoForGraph, null, 2));
+        fs.writeFile(filePath.slice(0,-3)+'.json', JSON.stringify(infoForGraph, null, 2));
       });
 
     });

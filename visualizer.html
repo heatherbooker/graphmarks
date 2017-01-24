@@ -17,22 +17,39 @@
 }
 .nodes:active text.url{
   display: inline;
-}'
+}
+
+svg {
+  display: flex;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+}
+button {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+}
 </style>
 
-<svg width="1440" height="803"></svg>
+<button>Reset</button>
+<svg></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+var width = window.innerWidth;
+var height= window.innerHeight;
+var svg = d3.select("svg").attr('height', height).attr('width', width);
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; })
-                                 .distance(function(d){return d.value== 1? 60: 300; }))
+                                 .distance(function(d){return d.value== 1? 300: 300;}))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -50,7 +67,7 @@ var simulation = d3.forceSimulation()
 //     tags.push({'title':"TAG"+i, 'id':"TAG"+i, 'group':2 })
 //   }
 
-d3.json("links.json", function(error, graph) {
+d3.json("awesomelinks.json", function(error, graph) {
   graph.nodes.push({"id": "AWESOME- Dot Files","title": "AWESOME- Dot Files","group": 2})
   var boo= graph.nodes.filter(function(elt){return elt.group==2})
   for (var i=0; i<boo.length; i++){
