@@ -1,4 +1,5 @@
 links.json
+testdata/*.json
 node_modules
 npm-debug.log
 

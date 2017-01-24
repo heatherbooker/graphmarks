@@ -1,10 +1,10 @@
 const cheerio = require('cheerio');
+let $;
 const fs = require('fs');
-let $ = cheerio.load(fs.readFileSync('testdata/awesome.html'));
-$ = cheerio.load($('.markdown-body').html());
+const readline = require('readline');
 
 
-function parse() {
+function parse($) {
 
   const infoForGraph = {nodes: [], links: []};
 
@@ -68,11 +68,10 @@ function parse() {
     return {nodes, links};
   }
 
-
-  console.log(JSON.stringify(infoForGraph, null, 2));
+  //console.log(JSON.stringify(infoForGraph, null, 2));
+  return infoForGraph;
 }
 
-parse()
 
 function createNode(title, id) {
 
@@ -97,3 +96,27 @@ function createLink(parentNode, childNode) {
     value: 1 // Value is the strength of the association.
   };
 }
+
+function main() {
+
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  rl.question(`enter the file path:\n`, filePath => {
+
+    rl.close();
+
+    $ = cheerio.load(fs.readFileSync(filePath || 'testdata/awesome.html'));
+    $ = cheerio.load($('.markdown-body').html());
+
+    const infoForGraph = parse($);
+
+    fs.writeFileSync(filePath.slice(0,-5)+'.json', JSON.stringify(infoForGraph, null, 2));
+
+  });
+}
+
+main();
+
