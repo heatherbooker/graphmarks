@@ -7,14 +7,11 @@ $ = cheerio.load($('.markdown-body').html());
 function parse() {
 
   const infoForGraph = {nodes: [], links: []};
-  const parents = {
-    h1: ''
-  };
 
-  parents.h1 = $('h1').first();
+  let parentNode = $('h1').first();
   let firstTag = $('h2').first();
 
-  recurse(firstTag, parents.h1);
+  recurse(firstTag, parentNode);
 
   function recurse(firstTag, parentNode) {
 
