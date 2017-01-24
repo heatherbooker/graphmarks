@@ -40,10 +40,16 @@ button {
 <svg></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-
 var width = window.innerWidth;
 var height= window.innerHeight;
-var svg = d3.select("svg").attr('height', height).attr('width', width);
+
+var svg = d3.select("svg")
+            .attr('height', height)
+            .attr('width', width)
+            .call(d3.zoom().on("zoom", function () {
+                svg.attr("transform", d3.event.transform)
+              }))
+            .append('g');
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
