@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-pink.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
     .links line {
       stroke: #999;
@@ -9,7 +13,9 @@
     }
     .nodes circle {
       stroke: #fff;
-      stroke-width: 1.5px;
+    }
+    .txt {
+      font-family: 'Roboto', sans-serif;
     }
     .nodes text{
       display: none;
@@ -30,16 +36,18 @@
       width: 100%;
       height: 100%;
     }
-    button {
+    .btn1 {
       display: flex;
       position: absolute;
+      top: 20px;
+      left: 30px;
       z-index: 100;
     }
     </style>
   </head>
   <body>
-    <button>Reset</button>
-    <svg></svg>
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored btn1"> <i class="material-icons">replay</i> </button>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>    <svg></svg>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script>
       var width = window.innerWidth;
@@ -52,7 +60,8 @@
       }))
       .append('g');
 
-      var color = d3.scaleOrdinal(d3.schemeCategory20);
+      // var color = d3.scaleOrdinal(d3.schemeCategory20);
+      color=['#EC407A','#78909C','#EC407A','#78909C'];
 
       var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; })
@@ -98,7 +107,7 @@
 
         var circle=node.append("circle")
         .attr("r", 7)
-        .attr("fill", function(d) { return color(d.group); })
+        .attr("fill", function(d) { return color[d.group];})
 
         var txt=node.append("text")
         .text(function(d) { return d.title; })
