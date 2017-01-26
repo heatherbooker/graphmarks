@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-pink.min.css" />
+    <link rel="stylesheet" href="./public/css/material.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
@@ -61,7 +61,7 @@
       .append('g');
 
       // var color = d3.scaleOrdinal(d3.schemeCategory20);
-      color=['#EC407A','#78909C','#EC407A','#78909C'];
+      color=['#ee6e73','#78909C','#ee6e73','#78909C'];
 
       var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; })
