@@ -39,6 +39,18 @@ app.get('/graphmarks/vis.html',function(req, res) {
     res.render('vis')
   })
   
+app.get('graphmarks/',function(req, res) {
+    res.status(200);
+    res.render('index')
+  }))
+app.get('graphmarks/index',function(req, res) {
+    res.status(200);
+    res.render('index')
+  }))
+app.get('graphmarks/index.html',function(req, res) {
+    res.status(200);
+    res.render('index')
+  }))
 app.use('graphmarks/', routes); // renders index to / request
 app.use('graphmarks/users', users);
 
