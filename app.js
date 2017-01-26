@@ -34,13 +34,13 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/vis.html',function(req, res) {
+app.get('/graphmarks/vis.html',function(req, res) {
     res.status(200);
     res.render('vis')
   })
   
-app.use('/', routes); // renders index to / request
-app.use('/users', users);
+app.use('graphmarks/', routes); // renders index to / request
+app.use('graphmarks/users', users);
 
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
