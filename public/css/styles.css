@@ -1,0 +1,45 @@
+.top-left {
+    left: 50px;
+}
+/*div {
+    border: 1px solid gray;
+}*/
+
+.logo-highlight {
+    background-color: #fff;
+    position: relative;
+    color: #EE6E73;
+    display: inline;
+    font-size: 3rem;
+    padding: 10;
+    white-space: normal;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.otherlines a:visited {
+  color: black; 
+}
+
+.otherlines a:visited {
+  color: black; 
+}
+.otherlines a:hover {
+  color: black; 
+}
+
+img {
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.first-line {
+    font-size: 3rem;
+}
+
+.otherlines {
+    font-size: 1.5rem;
+}

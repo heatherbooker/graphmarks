@@ -1,0 +1,441 @@
+{
+  "nodes": [
+    {
+      "id": "Awesome Programming Languages",
+      "title": "Awesome Programming Languages",
+      "group": 2
+    },
+    {
+      "group": 1,
+      "title": "Ansible",
+      "id": "https://github.com/jdauphant/awesome-ansible"
+    },
+    {
+      "group": 1,
+      "title": "AutoHotkey",
+      "id": "https://github.com/ahkscript/awesome-AutoHotkey"
+    },
+    {
+      "group": 1,
+      "title": "AutoIt",
+      "id": "https://github.com/J2TeaM/awesome-AutoIt"
+    },
+    {
+      "group": 1,
+      "title": "Assembler",
+      "id": "https://github.com/mat0thew/awesome-asm"
+    },
+    {
+      "group": 1,
+      "title": "C",
+      "id": "https://github.com/kozross/awesome-c"
+    },
+    {
+      "group": 1,
+      "title": "C/C++",
+      "id": "https://github.com/fffaraz/awesome-cpp"
+    },
+    {
+      "group": 1,
+      "title": "Clojure",
+      "id": "https://github.com/mbuczko/awesome-clojure"
+    },
+    {
+      "group": 1,
+      "title": "ColdFusion",
+      "id": "https://github.com/seancoyne/awesome-coldfusion"
+    },
+    {
+      "group": 1,
+      "title": "Common Lisp",
+      "id": "https://github.com/CodyReichert/awesome-cl"
+    },
+    {
+      "group": 1,
+      "title": "Crystal",
+      "id": "https://github.com/veelenga/awesome-crystal"
+    },
+    {
+      "group": 1,
+      "title": "D",
+      "id": "https://github.com/zhaopuming/awesome-d"
+    },
+    {
+      "group": 1,
+      "title": "Delphi",
+      "id": "https://github.com/Fr0sT-Brutal/awesome-delphi"
+    },
+    {
+      "group": 1,
+      "title": "Elixir",
+      "id": "https://github.com/h4cc/awesome-elixir"
+    },
+    {
+      "group": 1,
+      "title": "Elm",
+      "id": "https://github.com/isRuslan/awesome-elm"
+    },
+    {
+      "group": 1,
+      "title": "Erlang",
+      "id": "https://github.com/drobakowski/awesome-erlang"
+    },
+    {
+      "group": 1,
+      "title": "Fortran",
+      "id": "https://github.com/rabbiabram/awesome-fortran"
+    },
+    {
+      "group": 1,
+      "title": "Go",
+      "id": "https://github.com/avelino/awesome-go"
+    },
+    {
+      "group": 1,
+      "title": "Go Patterns",
+      "id": "https://github.com/tmrts/go-patterns"
+    },
+    {
+      "group": 1,
+      "title": "Groovy",
+      "id": "https://github.com/kdabir/awesome-groovy"
+    },
+    {
+      "group": 1,
+      "title": "Haskell",
+      "id": "https://github.com/krispo/awesome-haskell"
+    },
+    {
+      "group": 1,
+      "title": "Java",
+      "id": "https://github.com/akullpp/awesome-java"
+    },
+    {
+      "group": 1,
+      "title": "JavaScript",
+      "id": "https://github.com/sorrycc/awesome-javascript"
+    },
+    {
+      "group": 1,
+      "title": "Angular 2",
+      "id": "https://github.com/AngularClass/awesome-angular2"
+    },
+    {
+      "group": 1,
+      "title": "Node.js",
+      "id": "https://github.com/sindresorhus/awesome-nodejs"
+    },
+    {
+      "group": 1,
+      "title": "React",
+      "id": "https://github.com/enaqx/awesome-react"
+    },
+    {
+      "group": 1,
+      "title": "Julia",
+      "id": "https://github.com/svaksha/Julia.jl"
+    },
+    {
+      "group": 1,
+      "title": "Kotlin",
+      "id": "https://github.com/KotlinBy/awesome-kotlin"
+    },
+    {
+      "group": 1,
+      "title": "Lua",
+      "id": "https://github.com/forhappy/awesome-lua"
+    },
+    {
+      "group": 1,
+      "title": "MongoDB",
+      "id": "https://github.com/ximaoxo/awesome-mongodb"
+    },
+    {
+      "group": 1,
+      "title": "MySQL",
+      "id": "https://github.com/shlomi-noach/awesome-mysql"
+    },
+    {
+      "group": 1,
+      "title": "OCaml",
+      "id": "https://github.com/rizo/awesome-ocaml"
+    },
+    {
+      "group": 1,
+      "title": "Perl",
+      "id": "https://github.com/hachiojipm/awesome-perl"
+    },
+    {
+      "group": 1,
+      "title": "PHP",
+      "id": "https://github.com/ziadoz/awesome-php"
+    },
+    {
+      "group": 1,
+      "title": "Postgres",
+      "id": "https://github.com/dhamaniasad/awesome-postgres"
+    },
+    {
+      "group": 1,
+      "title": "Python",
+      "id": "https://github.com/vinta/awesome-python"
+    },
+    {
+      "group": 1,
+      "title": "R",
+      "id": "https://github.com/qinwf/awesome-R"
+    },
+    {
+      "group": 1,
+      "title": "Ruby",
+      "id": "https://github.com/markets/awesome-ruby"
+    },
+    {
+      "group": 1,
+      "title": "Rust",
+      "id": "https://github.com/kud1ing/awesome-rust"
+    },
+    {
+      "group": 1,
+      "title": "SAS",
+      "id": "https://github.com/huyingjie/awesome-SAS"
+    },
+    {
+      "group": 1,
+      "title": "Scala",
+      "id": "https://github.com/lauris/awesome-scala"
+    },
+    {
+      "group": 1,
+      "title": "Shell",
+      "id": "https://github.com/alebcay/awesome-shell"
+    },
+    {
+      "group": 1,
+      "title": "Swift",
+      "id": "https://github.com/Wolg/awesome-swift"
+    },
+    {
+      "group": 1,
+      "title": "TypeScript",
+      "id": "https://github.com/dzharii/awesome-typescript"
+    }
+  ],
+  "links": [
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/jdauphant/awesome-ansible",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/ahkscript/awesome-AutoHotkey",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/J2TeaM/awesome-AutoIt",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/mat0thew/awesome-asm",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/kozross/awesome-c",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/fffaraz/awesome-cpp",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/mbuczko/awesome-clojure",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/seancoyne/awesome-coldfusion",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/CodyReichert/awesome-cl",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/veelenga/awesome-crystal",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/zhaopuming/awesome-d",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/Fr0sT-Brutal/awesome-delphi",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/h4cc/awesome-elixir",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/isRuslan/awesome-elm",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/drobakowski/awesome-erlang",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/rabbiabram/awesome-fortran",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/avelino/awesome-go",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/tmrts/go-patterns",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/kdabir/awesome-groovy",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/krispo/awesome-haskell",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/akullpp/awesome-java",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/sorrycc/awesome-javascript",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/AngularClass/awesome-angular2",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/sindresorhus/awesome-nodejs",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/enaqx/awesome-react",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/svaksha/Julia.jl",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/KotlinBy/awesome-kotlin",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/forhappy/awesome-lua",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/ximaoxo/awesome-mongodb",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/shlomi-noach/awesome-mysql",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/rizo/awesome-ocaml",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/hachiojipm/awesome-perl",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/ziadoz/awesome-php",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/dhamaniasad/awesome-postgres",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/vinta/awesome-python",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/qinwf/awesome-R",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/markets/awesome-ruby",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/kud1ing/awesome-rust",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/huyingjie/awesome-SAS",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/lauris/awesome-scala",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/alebcay/awesome-shell",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/Wolg/awesome-swift",
+      "value": 1
+    },
+    {
+      "source": "Awesome Programming Languages",
+      "target": "https://github.com/dzharii/awesome-typescript",
+      "value": 1
+    }
+  ]
+}
