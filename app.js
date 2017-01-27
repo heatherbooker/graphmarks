@@ -32,27 +32,32 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/graphmarks/vis.html',function(req, res) {
-    res.status(200);
-    res.render('vis')
-  })
-  
-app.get('graphmarks/',function(req, res) {
-    res.status(200);
-    res.render('index')
-  }))
-app.get('graphmarks/index',function(req, res) {
-    res.status(200);
-    res.render('index')
-  }))
-app.get('graphmarks/index.html',function(req, res) {
-    res.status(200);
-    res.render('index')
-  }))
-app.use('graphmarks/', routes); // renders index to / request
-app.use('graphmarks/users', users);
+//app.use('/graphmarks',express.static(path.join(__dirname, 'public')));
+
+//app.get('graphmarks/index.html', function(req,res){
+//  res.status = 200;
+//  res.render('index'); 
+//})
+//app.get('graphmarks/vis.html', function(req,res){
+//  res.status = 200;
+//  res.render('vis'); 
+//})
+
+app.use('/graphmarks',express.static(path.join(__dirname, 'public')));
+
+app.get('/',function(req,res){ res.render('index')})
+app.get('/index.html', function(req,res){
+  res.send('moo')
+})
+app.get('/vis.html', function(req,res){
+  res.status = 200;
+  res.render('vis');
+})
+
+
+//app.use('/graphmarks', routes); // renders index to / request
+app.use('/graphmarks/users', users);
 
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

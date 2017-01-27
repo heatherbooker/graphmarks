@@ -32,7 +32,7 @@ var simulation = d3.forceSimulation()
 //     tags.push({'title':"TAG"+i, 'id':"TAG"+i, 'group':2 })
 //   }
 
-d3.json("/rcrs/awesomelinks.json", function(error, graph) {
+d3.json("graphmarks/rcrs/awesomelinks.json", function(error, graph) {
   graph.nodes.push({"id": "AWESOME- Dot Files","title": "AWESOME- Dot Files","group": 2})
   var boo= graph.nodes.filter(function(elt){return elt.group==2})
   for (var i=0; i<boo.length; i++){
