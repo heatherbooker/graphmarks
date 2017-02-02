@@ -36,10 +36,8 @@ app.use(cookieParser());
 app.use('/graphmarks',express.static(path.join(__dirname, 'public')));
 
 app.get('/',function(req,res){ res.render('index')})
-app.get('/index.html', function(req,res){
-  res.send('moo')
-})
-app.get('/vis', function(req,res){
+
+app.get('/vis.html', function(req,res){
   res.status = 200;
   res.render('vis');
 })
