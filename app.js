@@ -41,6 +41,18 @@ app.get('/vis.html', function(req,res){
   res.status = 200;
   res.render('vis');
 })
+app.get('/whatisthis.html', function(req,res){
+  res.status = 200;
+  res.render('whatisthis');
+})
+app.get('/bookmarks.html', function(req,res){
+  res.status = 200;
+  res.render('bookmarks');
+})
+app.get('/browse.html', function(req,res){
+  res.status = 200;
+  res.render('browse');
+})
 
 app.use('/graphmarks/users', users);
 
