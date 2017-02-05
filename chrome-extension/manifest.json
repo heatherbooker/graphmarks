@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "graphmarks",
+  "description": "your bookmarks look so good",
+  "version": "0.0",
+
+  "browser_action": {
+    "default_icon": "graphmarks-logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "chrome_url_overrides": {
+    "bookmarks": "graphmarks.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "bookmarks",
+    "https://ajax.googleapis.com/"
+  ]
+}
+
