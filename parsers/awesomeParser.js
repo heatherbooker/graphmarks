@@ -108,7 +108,7 @@ function main() {
 
     rl.close();
 
-    $ = cheerio.load(fs.readFileSync(filePath || 'testdata/awesome.html'));
+    $ = cheerio.load(fs.readFileSync(filePath));
     $ = cheerio.load($('.markdown-body').html());
 
     const infoForGraph = parse($);
