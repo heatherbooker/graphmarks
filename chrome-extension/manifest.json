@@ -18,7 +18,7 @@
     "bookmarks"
   ],
 
-  "content_security_policy": "script-src 'self' https://d3js.org/d3.v4.min.js; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://d3js.org/d3.v4.min.js https://code.getmdl.io/1.3.0/material.min.js; object-src 'self'"
 
 }
 
