@@ -2,19 +2,19 @@
 
 *under construction!*
 
-### to run:
+### to use in chrome:
+```bash
+git clone https://github.com/heatherbooker/graphmarks.git
+```
+then open Chrome and go to the extension manager (`chrome://extensions`) and enable "Developer mode". next click the "Load unpacked extension.." button and select `graphmarks/chrome-extension` from wherever you cloned the repo to.  
+voila! it should now be available at `chrome://bookmarks` as well as through a menu in the top toolbar!  
+### for development:
 ```bash
 git clone https://github.com/heatherbooker/graphmarks.git
 cd graphmarks
 npm install
-node parsers/awesomeParser.js # The program will ask you for a file name:
-testdata/awesome.html
-```
-At this point, the data for the graphmarks visualizer should be in a file of the same name as the one you named but with a .json extension (ex. testdata/awesome.json).
-```js
-// What should you do to run the visualizer with this file?
 ```
 #### to use your own awesome-<whatever> list:
-Go to an awesome-<whatever> list on github, right-click the main page and click "view source", then save what opens, and input the path to that file when asked after running `node parsers/awesomeParser.js` from the graphmarks directory.
+go to an awesome-<whatever> list on github, right-click the main page and click "view source", then save what opens, and input the path to that file when asked after running `node parsers/awesomeParser.js` from the graphmarks directory.
 
 
