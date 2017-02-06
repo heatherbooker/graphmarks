@@ -6,7 +6,7 @@ chrome.bookmarks.getTree(function(bookmarks) {
 
   addNodes(bkmrks, nodes[0].title, nodes[0].children, nodes, 1);
   console.log(nodes);
-  visualize({nodes});
+  visualize({nodes, allnodesobj: {}, links: []});
 });
 
 function addNodes(bkmrk, parent, parentsChildren, nodes, layer) {
@@ -28,7 +28,7 @@ function addNodes(bkmrk, parent, parentsChildren, nodes, layer) {
   }
 }
 
-function visualize(chromeNodes) {
+function visualize(graph) {
 var width = window.innerWidth;
 var height = window.innerHeight;
 
@@ -41,19 +41,19 @@ var svg = d3.select("svg")
             .append('g');
             
 var color= ['#ee6e73', '#78909C', '#ee6e73', '#78909C'];
-function makedict(ge){
-  nodedict={}
-  ge.forEach(function(elt, index){
-    nodedict[elt.id]= index; 
-  })
-  return nodedict
-}
+// function makedict(ge){
+//  nodedict={}
+//  ge.forEach(function(elt, index){
+//    nodedict[elt.id]= index; 
+//  })
+//  return nodedict
+//}
 
-d3.json(chromeNodes, function(error, graph) {
-  console.log(graph);
-  nodedict= makedict(graph.nodes); 
-  initlinks= graph.links; 
-  graph.links=[];
+allnodesobj = graph.allnodesobj;
+
+//  nodedict= makedict(graph.nodes); 
+//  initlinks= graph.links; 
+//  graph.links=[];
 
   var simulation = d3.forceSimulation(graph.nodes)
       .force("link", d3.forceLink(graph.links).distance(200))
@@ -67,9 +67,25 @@ d3.json(chromeNodes, function(error, graph) {
   var link = svg.append("g").selectAll(".link");
   var node = svg.append("g").selectAll(".node");
 
-  initlinks.forEach(function(elt){
-    graph.links.push({source:graph.nodes[nodedict[elt.source]], target:graph.nodes[nodedict[elt.target]]})
+  //  initlinks.forEach(function(elt){
+  //  graph.links.push({source:graph.nodes[nodedict[elt.source]], target:graph.nodes[nodedict[elt.target]]})
+  //  })
+  restart();
+
+  nodesnow = graph.nodes;
+  nodesnow.forEach(function(elt, i) {
+      if (elt.parent != "") {
+          parentindex = nodesnow.findIndex(function(belt) {
+              return belt.title == elt.parent
+          })
+          graph.links.push({
+              source: graph.nodes[i],
+              target: graph.nodes[parentindex]
+          })
+
+      }
   })
+
   restart();
 
   function restart() {
@@ -146,5 +162,4 @@ d3.json(chromeNodes, function(error, graph) {
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
   }
-})
 }

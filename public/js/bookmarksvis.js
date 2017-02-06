@@ -1,3 +1,5 @@
+function visualize(graph){
+
 var width = window.innerWidth;
 var height = window.innerHeight;
 
@@ -18,7 +20,7 @@ var color = ['#ee6e73', '#78909C', '#ee6e73', '#78909C'];
 //   return nodedict
 // }
 
-function visualize(graph){
+
   
 
 
