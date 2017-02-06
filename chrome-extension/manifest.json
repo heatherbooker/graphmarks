@@ -15,8 +15,10 @@
 
   "permissions": [
     "activeTab",
-    "bookmarks",
-    "https://ajax.googleapis.com/"
-  ]
+    "bookmarks"
+  ],
+
+  "content_security_policy": "script-src 'self' https://d3js.org/d3.v4.min.js; object-src 'self'"
+
 }
 

@@ -6,6 +6,7 @@ chrome.bookmarks.getTree(function(bookmarks) {
 
   addNodes(bkmrks, nodes[0].title, nodes[0].children, nodes, 1);
   console.log(nodes);
+  visualize({nodes});
 });
 
 function addNodes(bkmrk, parent, parentsChildren, nodes, layer) {
