@@ -1,0 +1,3383 @@
+{
+  "nodes": [
+    {
+      "parent": "",
+      "id": "Awesome-Awesomeness",
+      "title": "Awesome-Awesomeness",
+      "layer": 0,
+      "children": ["Programming Languages","General"]
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/jdauphant/awesome-ansible",
+      "title": "Ansible",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Programming Languages",
+      "parent":"Awesome-Awesomeness",
+      "id": "Programming Languages",
+      "layer": 2,
+      "children": [
+        "Ansible",
+        "AutoHotkey",
+        "AutoIt",
+        "Assembler",
+        "C",
+        "C/C++",
+        "CMake",
+        "Clojure",
+        "ColdFusion",
+        "Common Lisp",
+        "Crystal",
+        "D",
+        "Delphi",
+        "Elixir",
+        "Elm",
+        "Erlang",
+        "Fortran",
+        "Go",
+        "Go Patterns",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Julia",
+        "Kotlin",
+        "Lua",
+        "MySQL",
+        ".NET",
+        "OCaml",
+        "Perl",
+        "PHP",
+        "Postgres",
+        "Python",
+        "R",
+        "Ruby",
+        "Rust",
+        "SAS",
+        "Scala",
+        "Shell",
+        "Swift",
+        "TypeScript"
+      ]
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/ahkscript/awesome-AutoHotkey",
+      "title": "AutoHotkey",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/J2TeaM/awesome-AutoIt",
+      "title": "AutoIt",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/mat0thew/awesome-asm",
+      "title": "Assembler",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kozross/awesome-c",
+      "title": "C",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/fffaraz/awesome-cpp",
+      "title": "C/C++",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/onqtam/awesome-cmake",
+      "title": "CMake",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Clojure",
+      "id": "Clojure",
+      "layer": 2,
+      "children": [
+        "by @mbuczko",
+        "by @razum2um"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/seancoyne/awesome-coldfusion",
+      "title": "ColdFusion",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/CodyReichert/awesome-cl",
+      "title": "Common Lisp",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/veelenga/awesome-crystal",
+      "title": "Crystal",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/zhaopuming/awesome-d",
+      "title": "D",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/Fr0sT-Brutal/awesome-delphi",
+      "title": "Delphi",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/h4cc/awesome-elixir",
+      "title": "Elixir",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/isRuslan/awesome-elm",
+      "title": "Elm",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Erlang",
+      "id": "Erlang",
+      "layer": 2,
+      "children": [
+        "by @0xAX",
+        "by @drobakowski",
+        "by @unbalancedparentheses"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/rabbiabram/awesome-fortran",
+      "title": "Fortran",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/avelino/awesome-go",
+      "title": "Go",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/tmrts/go-patterns",
+      "title": "Go Patterns",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kdabir/awesome-groovy",
+      "title": "Groovy",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/krispo/awesome-haskell",
+      "title": "Haskell",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/akullpp/awesome-java",
+      "title": "Java",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/sorrycc/awesome-javascript",
+      "title": "JavaScript",
+      "layer": 2,
+      "children": [
+        "Angular 2",
+        "JavaScript Learning Resources",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Node.js",
+      "id": "Node.js",
+      "layer": 2,
+      "children": [
+        "by @sindresorhus",
+        "by @vndmtrx"
+      ],
+      "parent": "JavaScript"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/svaksha/Julia.jl",
+      "title": "Julia",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/KotlinBy/awesome-kotlin",
+      "title": "Kotlin",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Lua",
+      "id": "Lua",
+      "layer": 2,
+      "children": [
+        "by @forhappy",
+        "by @lewisjellis",
+        "MongoDB"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/shlomi-noach/awesome-mysql",
+      "title": "MySQL",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": ".NET",
+      "id": ".NET",
+      "layer": 2,
+      "children": [
+        "by @quozd",
+        "by @tallesl"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/rizo/awesome-ocaml",
+      "title": "OCaml",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/hachiojipm/awesome-perl",
+      "title": "Perl",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/ziadoz/awesome-php",
+      "title": "PHP",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/dhamaniasad/awesome-postgres",
+      "title": "Postgres",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Python",
+      "id": "Python",
+      "layer": 2,
+      "children": [
+        "by @kirang89",
+        "by @svaksha",
+        "by @vinta"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/qinwf/awesome-R",
+      "title": "R",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Ruby",
+      "id": "Ruby",
+      "layer": 2,
+      "children": [
+        "by @dreikanter",
+        "by @markets",
+        "by @Sdogruyol"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kud1ing/awesome-rust",
+      "title": "Rust",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/huyingjie/awesome-SAS",
+      "title": "SAS",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/lauris/awesome-scala",
+      "title": "Scala",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/alebcay/awesome-shell",
+      "title": "Shell",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Swift",
+      "id": "Swift",
+      "layer": 2,
+      "children": [
+        "by @matteocrippa",
+        "by @MaxChen",
+        "by @Wolg",
+        "from ZEEF by @Edubits"
+      ],
+      "parent": "Programming Languages"
+    },
+    {
+      "parent": "Programming Languages",
+      "id": "https://github.com/dzharii/awesome-typescript",
+      "title": "TypeScript",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/phanan/htaccess",
+      "title": "htaccess",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "General",
+      "id": "General",
+      "layer": 2,
+      "parent":"Awesome-Awesomeness",
+      "children": [
+        ".htaccess",
+        "Accessibility",
+        "Agolia",
+        "Algorithms",
+        "Amazon Web Services",
+        "Analytics",
+        "Android",
+        "Android Release Notes",
+        "Arduino",
+        "API",
+        "Apple",
+        "Beacons",
+        "Big data",
+        "Bitcoin",
+        "Boilerplates",
+        "Books",
+        "Bootstrap",
+        "Challenges",
+        "Code Formatters",
+        "Computer Vision",
+        "Conferences",
+        "Continuous Delivery",
+        "Conversational UI",
+        "Cordova",
+        "Courses",
+        "Creative Commons Media",
+        "Cryptography",
+        "CSS",
+        "Data Science",
+        "Data Visualization",
+        "Database",
+        "Datasets",
+        "Deep Learning",
+        "Dev Env",
+        "DevOps",
+        "Docker",
+        "Documentation",
+        "Dotfiles",
+        "Electron",
+        "Emacs",
+        "Falsehood",
+        "FluidApp Resources",
+        "Fonts",
+        "Free Services",
+        "Frontend",
+        "Game Development",
+        "Games",
+        "GIF",
+        "Gists",
+        "Git",
+        "GitHub",
+        "GraphQL",
+        "Growth Hacking",
+        "Guides",
+        "HTML5",
+        "Honeypots",
+        "Images",
+        "Internet of Things (IOT)",
+        "iOS",
+        "JSON",
+        "JVM",
+        "Koans",
+        "Lego",
+        "Linux Containers",
+        "Linux resources",
+        "Lists",
+        "[Mac]",
+        "Machine Learning",
+        "Malware Analysis",
+        "Material Design",
+        "Mobile marketing and development",
+        "Monitoring",
+        "Motion Design for Web",
+        "Nginx",
+        "Newsletters",
+        "No Login Web Apps",
+        "Open Science",
+        "Open Source Photography",
+        "Papers",
+        "Podcasts",
+        "Pipelines",
+        "Product Manager",
+        "Pentester",
+        "Quick Look Plugins",
+        "Random-Forest",
+        "RaspberryPI",
+        "React Native",
+        "README",
+        "Regex",
+        "Remote Job",
+        "Remote Work",
+        "REST",
+        "Robotics",
+        "RNN",
+        "Science Fiction",
+        "Search Engine Optimization (SEO)",
+        "Security",
+        "Selfhosted",
+        "Services Engineering",
+        "Sheet Music",
+        "Slack",
+        "Sound",
+        "Space",
+        "Speech and Natural Language Processing",
+        "Sphinx Documentation",
+        "Startup",
+        "Static Analysis",
+        "Styleguides",
+        "Sublime Text",
+        "SVG",
+        "Swedish",
+        "Sysadmin",
+        "Talks",
+        "Telegram",
+        "Test Automation",
+        "Tools",
+        "Unity",
+        "UI Styleguide",
+        "Vagrant",
+        "Vim",
+        "Web Performance Optimization",
+        "WebComponents",
+        "Wordpress",
+        "Workshops",
+        "Xamarin"
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "id": "Accessibility",
+      "layer": 2,
+      "children": [
+        "by @a11yproject",
+        "by @brunopulis"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/algolia/awesome-algolia",
+      "title": "Agolia",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/tayllan/awesome-algorithms",
+      "title": "Algorithms",
+      "layer": 2,
+      "children": [
+        "Algorithms Visualisation",
+        "Big O Notation"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/donnemartin/awesome-aws",
+      "title": "Amazon Web Services",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/onurakpolat/awesome-analytics",
+      "title": "Analytics",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/JStumpp/awesome-android",
+      "title": "Android",
+      "layer": 2,
+      "children": [
+        "Android Security",
+        "Android UI"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/pedronveloso/awesome-android-release-notes",
+      "title": "Android Release Notes",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Lembed/Awesome-arduino",
+      "title": "Arduino",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Kikobeats/awesome-api",
+      "title": "API",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/joeljfischer/awesome-apple",
+      "title": "Apple",
+      "layer": 2,
+      "children": [
+        "OS X",
+        "OS X and iOS Security"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/beaconinside/awesome-ibeacon-eddystone-beacon",
+      "title": "Beacons",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Big data",
+      "id": "Big data",
+      "layer": 2,
+      "children": [
+        "by @onurakpolat",
+        "by @zenkay",
+        "Hadoop"
+      ],
+      "parent": "General"
+    },
+    {
+      "title": "Bitcoin",
+      "id": "Bitcoin",
+      "layer": 2,
+      "children": [
+        "by @btcbrdev",
+        "by @igorbarinov"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/melvin0008/awesome-projects-boilerplates",
+      "title": "Boilerplates",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Books",
+      "id": "Books",
+      "layer": 2,
+      "children": [
+        "Free Programming Books",
+        "Free Software Testing Books",
+        "Mind Expanding Books"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/therebelrobot/awesome-bootstrap",
+      "title": "Bootstrap",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/mauriciovieira/awesome-challenges",
+      "title": "Challenges",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/rishirdua/awesome-code-formatters",
+      "title": "Code Formatters",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/jbhuang0604/awesome-computer-vision",
+      "title": "Computer Vision",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/RichardLitt/awesome-conferences",
+      "title": "Conferences",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ciandcd/awesome-ciandcd",
+      "title": "Continuous Delivery",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/mortenjust/awesome-conversational/",
+      "title": "Conversational UI",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/busterc/awesome-cordova",
+      "title": "Cordova",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/prakhar1989/awesome-courses",
+      "title": "Courses",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/shime/creative-commons-media",
+      "title": "Creative Commons Media",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Cryptography",
+      "id": "Cryptography",
+      "layer": 2,
+      "children": [
+        "by @MaciejCzyzewski",
+        "by @sobolevn"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sotayamashita/awesome-css",
+      "title": "CSS",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/okulbilisim/awesome-datascience",
+      "title": "Data Science",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/fasouto/awesome-dataviz",
+      "title": "Data Visualization",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/numetriclabz/awesome-db",
+      "title": "Database",
+      "layer": 2,
+      "children": [
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/caesar0301/awesome-public-datasets",
+      "title": "Datasets",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+      "title": "Deep Learning",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/jondot/awesome-devenv",
+      "title": "Dev Env",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/joubertredrat/awesome-devops",
+      "title": "DevOps",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/veggiemonk/awesome-docker",
+      "title": "Docker",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/PharkMillups/beautiful-docs",
+      "title": "Documentation",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/webpro/awesome-dotfiles",
+      "title": "Dotfiles",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/awesome-electron",
+      "title": "Electron",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/emacs-tw/awesome-emacs",
+      "title": "Emacs",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/kdeldycke/awesome-falsehood",
+      "title": "Falsehood",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/lborgav/awesome-fluidapp",
+      "title": "FluidApp Resources",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/brabadu/awesome-fonts",
+      "title": "Fonts",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ripienaar/free-for-dev",
+      "title": "Free Services",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Frontend",
+      "id": "Frontend",
+      "layer": 2,
+      "children": [
+        "by @dypsilon",
+        "by @moklick"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ellisonleao/magictools",
+      "title": "Game Development",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/leereilly/games",
+      "title": "Games",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "GIF",
+      "id": "GIF",
+      "layer": 2,
+      "children": [
+        "by @Kikobeats",
+        "by @Syskaw"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/vsouza/awesome-gists",
+      "title": "Gists",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/dictcp/awesome-git",
+      "title": "Git",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Kikobeats/awesome-github",
+      "title": "GitHub",
+      "layer": 2,
+      "children": [
+        "Browser extensions for GitHub",
+        "GitHub - Chinese",
+        "Toolkits for Github"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/chentsulin/awesome-graphql",
+      "title": "GraphQL",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/btomashvili/awesome-growth-hacking",
+      "title": "Growth Hacking",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Guides",
+      "id": "Guides",
+      "layer": 2,
+      "children": [
+        "by @narkoz",
+        "by @RichardLitt"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/diegocard/awesome-html5",
+      "title": "HTML5",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/paralax/awesome-honeypots",
+      "title": "Honeypots",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/heyalexej/awesome-images",
+      "title": "Images",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/HQarroum/awesome-iot",
+      "title": "Internet of Things (IOT)",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/vsouza/awesome-ios",
+      "title": "iOS",
+      "layer": 2,
+      "children": [
+        "Open Source Apps",
+        "UI"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/burningtree/awesome-json",
+      "title": "JSON",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/deephacks/awesome-jvm",
+      "title": "JVM",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ahmdrefat/awesome-koans",
+      "title": "Koans",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/adius/awesome-lego",
+      "title": "Lego",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Friz-zy/awesome-linux-containers",
+      "title": "Linux Containers",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/itech001/awesome-linux-resources",
+      "title": "Linux resources",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Lists",
+      "id": "Lists",
+      "layer": 2,
+      "children": [
+        "by @bayandin",
+        "by @jnv",
+        "by @sindresorhus"
+      ],
+      "parent": "General"
+    },
+    {
+      "title": "[Mac]",
+      "id": "[Mac]",
+      "layer": 2,
+      "children": [
+        "by @xyNNN",
+        "by @justin-j"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/josephmisiti/awesome-machine-learning",
+      "title": "Machine Learning",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/rshipp/awesome-malware-analysis",
+      "title": "Malware Analysis",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sachin1092/awesome-material",
+      "title": "Material Design",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/alec-c4/awesome-mobile",
+      "title": "Mobile marketing and development",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/crazy-canux/awesome-monitoring",
+      "title": "Monitoring",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/lucasmaiaesilva/awesome-motion-design-web",
+      "title": "Motion Design for Web",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/fcambus/nginx-resources",
+      "title": "Nginx",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Newsletters",
+      "id": "Newsletters",
+      "layer": 2,
+      "children": [
+        "by @vredniy",
+        "by @webpro",
+        "by @mpron"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/aviaryan/awesome-no-login-web-apps",
+      "title": "No Login Web Apps",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/silky/awesome-open-science",
+      "title": "Open Science",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Syskaw/awesome-OpenSourcePhotography",
+      "title": "Open Source Photography",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/papers-we-love/papers-we-love",
+      "title": "Papers",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Ghosh/awesome-podcasts",
+      "title": "Podcasts",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/pditommaso/awesome-pipeline",
+      "title": "Pipelines",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/hugo53/awesome-ProductManager",
+      "title": "Product Manager",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/m1guelpf/awesome-pentester",
+      "title": "Pentester",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/quick-look-plugins",
+      "title": "Quick Look Plugins",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/kjw0612/awesome-random-forest",
+      "title": "Random-Forest",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/blackout314/awesome-raspberry-pi",
+      "title": "RaspberryPI",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/jondot/awesome-react-native",
+      "title": "React Native",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/matiassingers/awesome-readme",
+      "title": "README",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/aloisdg/awesome-regex",
+      "title": "Regex",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/lukasz-madon/awesome-remote-job",
+      "title": "Remote Job",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/hugo53/awesome-RemoteWork",
+      "title": "Remote Work",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/marmelab/awesome-rest",
+      "title": "REST",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Kiloreux/awesome-robotics",
+      "title": "Robotics",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/kjw0612/awesome-rnn",
+      "title": "RNN",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/awesome-scifi",
+      "title": "Science Fiction",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "id": "Search Engine Optimization (SEO)",
+      "layer": 2,
+      "children": [
+        "by @marcobiedermann",
+        "by @teles"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/sbilly/awesome-security",
+      "title": "Security",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/Kickball/awesome-selfhosted",
+      "title": "Selfhosted",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/mmcgrana/services-engineering",
+      "title": "Services Engineering",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/adius/awesome-sheet-music",
+      "title": "Sheet Music",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/matiassingers/awesome-slack",
+      "title": "Slack",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/hwclass/awesome-sound",
+      "title": "Sound",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/elburz/awesome-space",
+      "title": "Space",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/edobashira/speech-language-processing",
+      "title": "Speech and Natural Language Processing",
+      "layer": 2,
+      "children": [
+        "NLP with Ruby"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/yoloseem/awesome-sphinxdoc",
+      "title": "Sphinx Documentation",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/KrishMunot/awesome-startup",
+      "title": "Startup",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/mre/awesome-static-analysis/",
+      "title": "Static Analysis",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/RichardLitt/awesome-styleguides",
+      "title": "Styleguides",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/dreikanter/sublime-bookmarks",
+      "title": "Sublime Text",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/willianjusten/awesome-svg",
+      "title": "SVG",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/gurre/awesome-swedish-opensource",
+      "title": "Swedish",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/kahun/awesome-sysadmin",
+      "title": "Sysadmin",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/JanVanRyswyck/awesome-talks",
+      "title": "Talks",
+      "layer": 2,
+      "children": [
+        "Gaming"
+      ]
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/ebertti/awesome-telegram",
+      "title": "Telegram",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/atinfo/awesome-test-automation",
+      "title": "Test Automation",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/cjbarber/ToolsOfTheTrade",
+      "title": "Tools",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/RyanNielson/awesome-unity",
+      "title": "Unity",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/kevinwuhoo/ui-styleguides",
+      "title": "UI Styleguide",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/iJackUA/awesome-vagrant",
+      "title": "Vagrant",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "title": "Vim",
+      "id": "Vim",
+      "layer": 2,
+      "children": [
+        "by @akrawchyk",
+        "by @matteocrippa"
+      ],
+      "parent": "General"
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/davidsonfellipe/awesome-wpo",
+      "title": "Web Performance Optimization",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/mateusortiz/webcomponents-the-right-way",
+      "title": "WebComponents",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/miziomon/awesome-wordpress",
+      "title": "Wordpress",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/therebelrobot/awesome-workshopper",
+      "title": "Workshops",
+      "layer": 2,
+      "children": []
+    },
+    {
+      "parent": "General",
+      "id": "https://github.com/benoitjadinon/awesome-xamarin",
+      "title": "Xamarin",
+      "layer": 2,
+      "children": []
+    }
+  ],
+  "links": [],
+  "allnodes": {
+    "Awesome-Awesomeness": {
+      "parent": "",
+      "id": "Awesome-Awesomeness",
+      "title": "Awesome-Awesomeness",
+      "layer": 0,
+      "children": ["Programming Languages","General"]
+    },
+    "Ansible": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/jdauphant/awesome-ansible",
+      "title": "Ansible",
+      "layer": 2,
+      "children": []
+    },
+    "Programming Languages": {
+      "parent":"Awesome-Awesomeness",
+      "title": "Programming Languages",
+      "id": "Programming Languages",
+      "layer": 2,
+      "children": [
+        "Ansible",
+        "AutoHotkey",
+        "AutoIt",
+        "Assembler",
+        "C",
+        "C/C++",
+        "CMake",
+        "Clojure",
+        "ColdFusion",
+        "Common Lisp",
+        "Crystal",
+        "D",
+        "Delphi",
+        "Elixir",
+        "Elm",
+        "Erlang",
+        "Fortran",
+        "Go",
+        "Go Patterns",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Julia",
+        "Kotlin",
+        "Lua",
+        "MySQL",
+        ".NET",
+        "OCaml",
+        "Perl",
+        "PHP",
+        "Postgres",
+        "Python",
+        "R",
+        "Ruby",
+        "Rust",
+        "SAS",
+        "Scala",
+        "Shell",
+        "Swift",
+        "TypeScript"
+      ]
+    },
+    "AutoHotkey": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/ahkscript/awesome-AutoHotkey",
+      "title": "AutoHotkey",
+      "layer": 2,
+      "children": []
+    },
+    "AutoIt": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/J2TeaM/awesome-AutoIt",
+      "title": "AutoIt",
+      "layer": 2,
+      "children": []
+    },
+    "Assembler": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/mat0thew/awesome-asm",
+      "title": "Assembler",
+      "layer": 2,
+      "children": []
+    },
+    "C": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kozross/awesome-c",
+      "title": "C",
+      "layer": 2,
+      "children": []
+    },
+    "C/C++": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/fffaraz/awesome-cpp",
+      "title": "C/C++",
+      "layer": 2,
+      "children": []
+    },
+    "CMake": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/onqtam/awesome-cmake",
+      "title": "CMake",
+      "layer": 2,
+      "children": []
+    },
+    "by @mbuczko": {
+      "parent": "Clojure",
+      "id": "https://github.com/mbuczko/awesome-clojure",
+      "title": "by @mbuczko",
+      "layer": 3,
+      "children": []
+    },
+    "Clojure": {
+      "title": "Clojure",
+      "id": "Clojure",
+      "layer": 2,
+      "children": [
+        "by @mbuczko",
+        "by @razum2um"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @razum2um": {
+      "parent": "Clojure",
+      "id": "https://github.com/razum2um/awesome-clojure",
+      "title": "by @razum2um",
+      "layer": 3,
+      "children": []
+    },
+    "ColdFusion": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/seancoyne/awesome-coldfusion",
+      "title": "ColdFusion",
+      "layer": 2,
+      "children": []
+    },
+    "Common Lisp": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/CodyReichert/awesome-cl",
+      "title": "Common Lisp",
+      "layer": 2,
+      "children": []
+    },
+    "Crystal": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/veelenga/awesome-crystal",
+      "title": "Crystal",
+      "layer": 2,
+      "children": []
+    },
+    "D": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/zhaopuming/awesome-d",
+      "title": "D",
+      "layer": 2,
+      "children": []
+    },
+    "Delphi": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/Fr0sT-Brutal/awesome-delphi",
+      "title": "Delphi",
+      "layer": 2,
+      "children": []
+    },
+    "Elixir": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/h4cc/awesome-elixir",
+      "title": "Elixir",
+      "layer": 2,
+      "children": []
+    },
+    "Elm": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/isRuslan/awesome-elm",
+      "title": "Elm",
+      "layer": 2,
+      "children": []
+    },
+    "by @0xAX": {
+      "parent": "Erlang",
+      "id": "https://github.com/0xAX/erlang-bookmarks",
+      "title": "by @0xAX",
+      "layer": 3,
+      "children": []
+    },
+    "Erlang": {
+      "title": "Erlang",
+      "id": "Erlang",
+      "layer": 2,
+      "children": [
+        "by @0xAX",
+        "by @drobakowski",
+        "by @unbalancedparentheses"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @drobakowski": {
+      "parent": "Erlang",
+      "id": "https://github.com/drobakowski/awesome-erlang",
+      "title": "by @drobakowski",
+      "layer": 3,
+      "children": []
+    },
+    "by @unbalancedparentheses": {
+      "parent": "Erlang",
+      "id": "https://github.com/unbalancedparentheses/spawnedshelter",
+      "title": "by @unbalancedparentheses",
+      "layer": 3,
+      "children": []
+    },
+    "Fortran": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/rabbiabram/awesome-fortran",
+      "title": "Fortran",
+      "layer": 2,
+      "children": []
+    },
+    "Go": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/avelino/awesome-go",
+      "title": "Go",
+      "layer": 2,
+      "children": []
+    },
+    "Go Patterns": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/tmrts/go-patterns",
+      "title": "Go Patterns",
+      "layer": 2,
+      "children": []
+    },
+    "Groovy": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kdabir/awesome-groovy",
+      "title": "Groovy",
+      "layer": 2,
+      "children": []
+    },
+    "Haskell": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/krispo/awesome-haskell",
+      "title": "Haskell",
+      "layer": 2,
+      "children": []
+    },
+    "Java": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/akullpp/awesome-java",
+      "title": "Java",
+      "layer": 2,
+      "children": []
+    },
+    "JavaScript": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/sorrycc/awesome-javascript",
+      "title": "JavaScript",
+      "layer": 2,
+      "children": [
+        "Angular 2",
+        "JavaScript Learning Resources",
+        "Node.js"
+      ]
+    },
+    "Angular 2": {
+      "parent": "JavaScript",
+      "id": "https://github.com/AngularClass/awesome-angular2",
+      "title": "Angular 2",
+      "layer": 3,
+      "children": []
+    },
+    "JavaScript Learning Resources": {
+      "parent": "JavaScript",
+      "id": "https://github.com/micromata/awesome-javascript-learning-resources",
+      "title": "JavaScript Learning Resources",
+      "layer": 3,
+      "children": []
+    },
+    "by @sindresorhus": {
+      "parent": "Lists",
+      "id": "https://github.com/sindresorhus/awesome",
+      "title": "by @sindresorhus",
+      "layer": 3,
+      "children": []
+    },
+    "Node.js": {
+      "title": "Node.js",
+      "id": "Node.js",
+      "layer": 2,
+      "children": [
+        "by @sindresorhus",
+        "by @vndmtrx"
+      ],
+      "parent": "JavaScript"
+    },
+    "by @vndmtrx": {
+      "parent": "Node.js",
+      "id": "https://github.com/vndmtrx/awesome-nodejs",
+      "title": "by @vndmtrx",
+      "layer": 3,
+      "children": []
+    },
+    "Julia": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/svaksha/Julia.jl",
+      "title": "Julia",
+      "layer": 2,
+      "children": []
+    },
+    "Kotlin": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/KotlinBy/awesome-kotlin",
+      "title": "Kotlin",
+      "layer": 2,
+      "children": []
+    },
+    "by @forhappy": {
+      "parent": "Lua",
+      "id": "https://github.com/forhappy/awesome-lua",
+      "title": "by @forhappy",
+      "layer": 3,
+      "children": []
+    },
+    "Lua": {
+      "title": "Lua",
+      "id": "Lua",
+      "layer": 2,
+      "children": [
+        "by @forhappy",
+        "by @lewisjellis",
+        "MongoDB"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @lewisjellis": {
+      "parent": "Lua",
+      "id": "https://github.com/LewisJEllis/awesome-lua",
+      "title": "by @lewisjellis",
+      "layer": 3,
+      "children": []
+    },
+    "MongoDB": {
+      "parent": "Lua",
+      "id": "https://github.com/ximaoxo/awesome-mongodb",
+      "title": "MongoDB",
+      "layer": 3,
+      "children": []
+    },
+    "MySQL": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/shlomi-noach/awesome-mysql",
+      "title": "MySQL",
+      "layer": 2,
+      "children": []
+    },
+    "by @quozd": {
+      "parent": ".NET",
+      "id": "https://github.com/quozd/awesome-dotnet",
+      "title": "by @quozd",
+      "layer": 3,
+      "children": []
+    },
+    ".NET": {
+      "title": ".NET",
+      "id": ".NET",
+      "layer": 2,
+      "children": [
+        "by @quozd",
+        "by @tallesl"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @tallesl": {
+      "parent": ".NET",
+      "id": "https://github.com/tallesl/.NET-libraries-that-make-your-life-easier",
+      "title": "by @tallesl",
+      "layer": 3,
+      "children": []
+    },
+    "OCaml": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/rizo/awesome-ocaml",
+      "title": "OCaml",
+      "layer": 2,
+      "children": []
+    },
+    "Perl": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/hachiojipm/awesome-perl",
+      "title": "Perl",
+      "layer": 2,
+      "children": []
+    },
+    "PHP": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/ziadoz/awesome-php",
+      "title": "PHP",
+      "layer": 2,
+      "children": []
+    },
+    "Postgres": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/dhamaniasad/awesome-postgres",
+      "title": "Postgres",
+      "layer": 2,
+      "children": []
+    },
+    "by @kirang89": {
+      "parent": "Python",
+      "id": "https://github.com/kirang89/pycrumbs",
+      "title": "by @kirang89",
+      "layer": 3,
+      "children": []
+    },
+    "Python": {
+      "title": "Python",
+      "id": "Python",
+      "layer": 2,
+      "children": [
+        "by @kirang89",
+        "by @svaksha",
+        "by @vinta"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @svaksha": {
+      "parent": "Python",
+      "id": "https://github.com/svaksha/pythonidae",
+      "title": "by @svaksha",
+      "layer": 3,
+      "children": []
+    },
+    "by @vinta": {
+      "parent": "Python",
+      "id": "https://github.com/vinta/awesome-python",
+      "title": "by @vinta",
+      "layer": 3,
+      "children": []
+    },
+    "R": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/qinwf/awesome-R",
+      "title": "R",
+      "layer": 2,
+      "children": []
+    },
+    "by @dreikanter": {
+      "parent": "Ruby",
+      "id": "https://github.com/dreikanter/ruby-bookmarks",
+      "title": "by @dreikanter",
+      "layer": 3,
+      "children": []
+    },
+    "Ruby": {
+      "title": "Ruby",
+      "id": "Ruby",
+      "layer": 2,
+      "children": [
+        "by @dreikanter",
+        "by @markets",
+        "by @Sdogruyol"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @markets": {
+      "parent": "Ruby",
+      "id": "https://github.com/markets/awesome-ruby",
+      "title": "by @markets",
+      "layer": 3,
+      "children": []
+    },
+    "by @Sdogruyol": {
+      "parent": "Ruby",
+      "id": "https://github.com/Sdogruyol/awesome-ruby",
+      "title": "by @Sdogruyol",
+      "layer": 3,
+      "children": []
+    },
+    "Rust": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/kud1ing/awesome-rust",
+      "title": "Rust",
+      "layer": 2,
+      "children": []
+    },
+    "SAS": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/huyingjie/awesome-SAS",
+      "title": "SAS",
+      "layer": 2,
+      "children": []
+    },
+    "Scala": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/lauris/awesome-scala",
+      "title": "Scala",
+      "layer": 2,
+      "children": []
+    },
+    "Shell": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/alebcay/awesome-shell",
+      "title": "Shell",
+      "layer": 2,
+      "children": []
+    },
+    "by @matteocrippa": {
+      "parent": "Vim",
+      "id": "https://github.com/matteocrippa/awesome-vim",
+      "title": "by @matteocrippa",
+      "layer": 3,
+      "children": []
+    },
+    "Swift": {
+      "title": "Swift",
+      "id": "Swift",
+      "layer": 2,
+      "children": [
+        "by @matteocrippa",
+        "by @MaxChen",
+        "by @Wolg",
+        "from ZEEF by @Edubits"
+      ],
+      "parent": "Programming Languages"
+    },
+    "by @MaxChen": {
+      "parent": "Swift",
+      "id": "https://github.com/MaxChen/awesome-swift-and-tutorial-resources",
+      "title": "by @MaxChen",
+      "layer": 3,
+      "children": []
+    },
+    "by @Wolg": {
+      "parent": "Swift",
+      "id": "https://github.com/Wolg/awesome-swift",
+      "title": "by @Wolg",
+      "layer": 3,
+      "children": []
+    },
+    "from ZEEF by @Edubits": {
+      "parent": "Swift",
+      "id": "https://swift.zeef.com/robin.eggenkamp",
+      "title": "from ZEEF by @Edubits",
+      "layer": 3,
+      "children": []
+    },
+    "TypeScript": {
+      "parent": "Programming Languages",
+      "id": "https://github.com/dzharii/awesome-typescript",
+      "title": "TypeScript",
+      "layer": 2,
+      "children": []
+    },
+    ".htaccess": {
+      "parent": "General",
+      "id": "https://github.com/phanan/htaccess",
+      "title": ".htaccess",
+      "layer": 2,
+      "children": []
+    },
+    "General": {
+      "parent":"Awesome-Awesomeness",
+      "title": "General",
+      "id": "General",
+      "layer": 2,
+      "children": [
+        ".htaccess",
+        "Accessibility",
+        "Agolia",
+        "Algorithms",
+        "Amazon Web Services",
+        "Analytics",
+        "Android",
+        "Android Release Notes",
+        "Arduino",
+        "API",
+        "Apple",
+        "Beacons",
+        "Big data",
+        "Bitcoin",
+        "Boilerplates",
+        "Books",
+        "Bootstrap",
+        "Challenges",
+        "Code Formatters",
+        "Computer Vision",
+        "Conferences",
+        "Continuous Delivery",
+        "Conversational UI",
+        "Cordova",
+        "Courses",
+        "Creative Commons Media",
+        "Cryptography",
+        "CSS",
+        "Data Science",
+        "Data Visualization",
+        "Database",
+        "Datasets",
+        "Deep Learning",
+        "Dev Env",
+        "DevOps",
+        "Docker",
+        "Documentation",
+        "Dotfiles",
+        "Electron",
+        "Emacs",
+        "Falsehood",
+        "FluidApp Resources",
+        "Fonts",
+        "Free Services",
+        "Frontend",
+        "Game Development",
+        "Games",
+        "GIF",
+        "Gists",
+        "Git",
+        "GitHub",
+        "GraphQL",
+        "Growth Hacking",
+        "Guides",
+        "HTML5",
+        "Honeypots",
+        "Images",
+        "Internet of Things (IOT)",
+        "iOS",
+        "JSON",
+        "JVM",
+        "Koans",
+        "Lego",
+        "Linux Containers",
+        "Linux resources",
+        "Lists",
+        "[Mac]",
+        "Machine Learning",
+        "Malware Analysis",
+        "Material Design",
+        "Mobile marketing and development",
+        "Monitoring",
+        "Motion Design for Web",
+        "Nginx",
+        "Newsletters",
+        "No Login Web Apps",
+        "Open Science",
+        "Open Source Photography",
+        "Papers",
+        "Podcasts",
+        "Pipelines",
+        "Product Manager",
+        "Pentester",
+        "Quick Look Plugins",
+        "Random-Forest",
+        "RaspberryPI",
+        "React Native",
+        "README",
+        "Regex",
+        "Remote Job",
+        "Remote Work",
+        "REST",
+        "Robotics",
+        "RNN",
+        "Science Fiction",
+        "Search Engine Optimization (SEO)",
+        "Security",
+        "Selfhosted",
+        "Services Engineering",
+        "Sheet Music",
+        "Slack",
+        "Sound",
+        "Space",
+        "Speech and Natural Language Processing",
+        "Sphinx Documentation",
+        "Startup",
+        "Static Analysis",
+        "Styleguides",
+        "Sublime Text",
+        "SVG",
+        "Swedish",
+        "Sysadmin",
+        "Talks",
+        "Telegram",
+        "Test Automation",
+        "Tools",
+        "Unity",
+        "UI Styleguide",
+        "Vagrant",
+        "Vim",
+        "Web Performance Optimization",
+        "WebComponents",
+        "Wordpress",
+        "Workshops",
+        "Xamarin"
+      ]
+    },
+    "by @a11yproject": {
+      "parent": "Accessibility",
+      "id": "https://github.com/a11yproject/a11yproject.com",
+      "title": "by @a11yproject",
+      "layer": 3,
+      "children": []
+    },
+    "Accessibility": {
+      "title": "Accessibility",
+      "id": "Accessibility",
+      "layer": 2,
+      "children": [
+        "by @a11yproject",
+        "by @brunopulis"
+      ],
+      "parent": "General"
+    },
+    "by @brunopulis": {
+      "parent": "Accessibility",
+      "id": "https://github.com/brunopulis/awesome-a11y",
+      "title": "by @brunopulis",
+      "layer": 3,
+      "children": []
+    },
+    "Agolia": {
+      "parent": "General",
+      "id": "https://github.com/algolia/awesome-algolia",
+      "title": "Agolia",
+      "layer": 2,
+      "children": []
+    },
+    "Algorithms": {
+      "parent": "General",
+      "id": "https://github.com/tayllan/awesome-algorithms",
+      "title": "Algorithms",
+      "layer": 2,
+      "children": [
+        "Algorithms Visualisation",
+        "Big O Notation"
+      ]
+    },
+    "Algorithms Visualisation": {
+      "parent": "Algorithms",
+      "id": "https://github.com/enjalot/algovis",
+      "title": "Algorithms Visualisation",
+      "layer": 3,
+      "children": []
+    },
+    "Big O Notation": {
+      "parent": "Algorithms",
+      "id": "https://github.com/okulbilisim/awesome-big-o",
+      "title": "Big O Notation",
+      "layer": 3,
+      "children": []
+    },
+    "Amazon Web Services": {
+      "parent": "General",
+      "id": "https://github.com/donnemartin/awesome-aws",
+      "title": "Amazon Web Services",
+      "layer": 2,
+      "children": []
+    },
+    "Analytics": {
+      "parent": "General",
+      "id": "https://github.com/onurakpolat/awesome-analytics",
+      "title": "Analytics",
+      "layer": 2,
+      "children": []
+    },
+    "Android": {
+      "parent": "General",
+      "id": "https://github.com/JStumpp/awesome-android",
+      "title": "Android",
+      "layer": 2,
+      "children": [
+        "Android Security",
+        "Android UI"
+      ]
+    },
+    "Android Release Notes": {
+      "parent": "General",
+      "id": "https://github.com/pedronveloso/awesome-android-release-notes",
+      "title": "Android Release Notes",
+      "layer": 2,
+      "children": []
+    },
+    "Android Security": {
+      "parent": "Android",
+      "id": "https://github.com/ashishb/android-security-awesome",
+      "title": "Android Security",
+      "layer": 3,
+      "children": []
+    },
+    "Android UI": {
+      "parent": "Android",
+      "id": "https://github.com/wasabeef/awesome-android-ui",
+      "title": "Android UI",
+      "layer": 3,
+      "children": []
+    },
+    "Arduino": {
+      "parent": "General",
+      "id": "https://github.com/Lembed/Awesome-arduino",
+      "title": "Arduino",
+      "layer": 2,
+      "children": []
+    },
+    "API": {
+      "parent": "General",
+      "id": "https://github.com/Kikobeats/awesome-api",
+      "title": "API",
+      "layer": 2,
+      "children": []
+    },
+    "Apple": {
+      "parent": "General",
+      "id": "https://github.com/joeljfischer/awesome-apple",
+      "title": "Apple",
+      "layer": 2,
+      "children": [
+        "OS X",
+        "OS X and iOS Security"
+      ]
+    },
+    "OS X": {
+      "parent": "Apple",
+      "id": "https://github.com/iCHAIT/awesome-osx",
+      "title": "OS X",
+      "layer": 3,
+      "children": []
+    },
+    "OS X and iOS Security": {
+      "parent": "Apple",
+      "id": "https://github.com/ashishb/osx-and-ios-security-awesome",
+      "title": "OS X and iOS Security",
+      "layer": 3,
+      "children": []
+    },
+    "Beacons": {
+      "parent": "General",
+      "id": "https://github.com/beaconinside/awesome-ibeacon-eddystone-beacon",
+      "title": "Beacons",
+      "layer": 2,
+      "children": []
+    },
+    "by @onurakpolat": {
+      "parent": "Big data",
+      "id": "https://github.com/onurakpolat/awesome-bigdata",
+      "title": "by @onurakpolat",
+      "layer": 3,
+      "children": []
+    },
+    "Big data": {
+      "title": "Big data",
+      "id": "Big data",
+      "layer": 2,
+      "children": [
+        "by @onurakpolat",
+        "by @zenkay",
+        "Hadoop"
+      ],
+      "parent": "General"
+    },
+    "by @zenkay": {
+      "parent": "Big data",
+      "id": "https://github.com/zenkay/bigdata-ecosystem",
+      "title": "by @zenkay",
+      "layer": 3,
+      "children": []
+    },
+    "Hadoop": {
+      "parent": "Big data",
+      "id": "https://github.com/youngwookim/awesome-hadoop",
+      "title": "Hadoop",
+      "layer": 3,
+      "children": []
+    },
+    "by @btcbrdev": {
+      "parent": "Bitcoin",
+      "id": "https://github.com/btcbrdev/awesome-btcdev",
+      "title": "by @btcbrdev",
+      "layer": 3,
+      "children": []
+    },
+    "Bitcoin": {
+      "title": "Bitcoin",
+      "id": "Bitcoin",
+      "layer": 2,
+      "children": [
+        "by @btcbrdev",
+        "by @igorbarinov"
+      ],
+      "parent": "General"
+    },
+    "by @igorbarinov": {
+      "parent": "Bitcoin",
+      "id": "https://github.com/igorbarinov/awesome-bitcoin",
+      "title": "by @igorbarinov",
+      "layer": 3,
+      "children": []
+    },
+    "Boilerplates": {
+      "parent": "General",
+      "id": "https://github.com/melvin0008/awesome-projects-boilerplates",
+      "title": "Boilerplates",
+      "layer": 2,
+      "children": []
+    },
+    "Free Programming Books": {
+      "parent": "Books",
+      "id": "https://github.com/vhf/free-programming-books",
+      "title": "Free Programming Books",
+      "layer": 3,
+      "children": []
+    },
+    "Books": {
+      "title": "Books",
+      "id": "Books",
+      "layer": 2,
+      "children": [
+        "Free Programming Books",
+        "Free Software Testing Books",
+        "Mind Expanding Books"
+      ],
+      "parent": "General"
+    },
+    "Free Software Testing Books": {
+      "parent": "Books",
+      "id": "https://github.com/ligurio/free-software-testing-books",
+      "title": "Free Software Testing Books",
+      "layer": 3,
+      "children": []
+    },
+    "Mind Expanding Books": {
+      "parent": "Books",
+      "id": "https://github.com/hackerkid/Mind-Expanding-Books",
+      "title": "Mind Expanding Books",
+      "layer": 3,
+      "children": []
+    },
+    "Bootstrap": {
+      "parent": "General",
+      "id": "https://github.com/therebelrobot/awesome-bootstrap",
+      "title": "Bootstrap",
+      "layer": 2,
+      "children": []
+    },
+    "Challenges": {
+      "parent": "General",
+      "id": "https://github.com/mauriciovieira/awesome-challenges",
+      "title": "Challenges",
+      "layer": 2,
+      "children": []
+    },
+    "Code Formatters": {
+      "parent": "General",
+      "id": "https://github.com/rishirdua/awesome-code-formatters",
+      "title": "Code Formatters",
+      "layer": 2,
+      "children": []
+    },
+    "Computer Vision": {
+      "parent": "General",
+      "id": "https://github.com/jbhuang0604/awesome-computer-vision",
+      "title": "Computer Vision",
+      "layer": 2,
+      "children": []
+    },
+    "Conferences": {
+      "parent": "General",
+      "id": "https://github.com/RichardLitt/awesome-conferences",
+      "title": "Conferences",
+      "layer": 2,
+      "children": []
+    },
+    "Continuous Delivery": {
+      "parent": "General",
+      "id": "https://github.com/ciandcd/awesome-ciandcd",
+      "title": "Continuous Delivery",
+      "layer": 2,
+      "children": []
+    },
+    "Conversational UI": {
+      "parent": "General",
+      "id": "https://github.com/mortenjust/awesome-conversational/",
+      "title": "Conversational UI",
+      "layer": 2,
+      "children": []
+    },
+    "Cordova": {
+      "parent": "General",
+      "id": "https://github.com/busterc/awesome-cordova",
+      "title": "Cordova",
+      "layer": 2,
+      "children": []
+    },
+    "Courses": {
+      "parent": "General",
+      "id": "https://github.com/prakhar1989/awesome-courses",
+      "title": "Courses",
+      "layer": 2,
+      "children": []
+    },
+    "Creative Commons Media": {
+      "parent": "General",
+      "id": "https://github.com/shime/creative-commons-media",
+      "title": "Creative Commons Media",
+      "layer": 2,
+      "children": []
+    },
+    "by @MaciejCzyzewski": {
+      "parent": "Cryptography",
+      "id": "https://github.com/MaciejCzyzewski/retter",
+      "title": "by @MaciejCzyzewski",
+      "layer": 3,
+      "children": []
+    },
+    "Cryptography": {
+      "title": "Cryptography",
+      "id": "Cryptography",
+      "layer": 2,
+      "children": [
+        "by @MaciejCzyzewski",
+        "by @sobolevn"
+      ],
+      "parent": "General"
+    },
+    "by @sobolevn": {
+      "parent": "Cryptography",
+      "id": "https://github.com/sobolevn/awesome-cryptography",
+      "title": "by @sobolevn",
+      "layer": 3,
+      "children": []
+    },
+    "CSS": {
+      "parent": "General",
+      "id": "https://github.com/sotayamashita/awesome-css",
+      "title": "CSS",
+      "layer": 2,
+      "children": []
+    },
+    "Data Science": {
+      "parent": "General",
+      "id": "https://github.com/okulbilisim/awesome-datascience",
+      "title": "Data Science",
+      "layer": 2,
+      "children": []
+    },
+    "Data Visualization": {
+      "parent": "General",
+      "id": "https://github.com/fasouto/awesome-dataviz",
+      "title": "Data Visualization",
+      "layer": 2,
+      "children": []
+    },
+    "Database": {
+      "parent": "General",
+      "id": "https://github.com/numetriclabz/awesome-db",
+      "title": "Database",
+      "layer": 2,
+      "children": [
+        "SQLAlchemy"
+      ]
+    },
+    "SQLAlchemy": {
+      "parent": "Database",
+      "id": "https://github.com/dahlia/awesome-sqlalchemy",
+      "title": "SQLAlchemy",
+      "layer": 3,
+      "children": []
+    },
+    "Datasets": {
+      "parent": "General",
+      "id": "https://github.com/caesar0301/awesome-public-datasets",
+      "title": "Datasets",
+      "layer": 2,
+      "children": []
+    },
+    "Deep Learning": {
+      "parent": "General",
+      "id": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+      "title": "Deep Learning",
+      "layer": 2,
+      "children": []
+    },
+    "Dev Env": {
+      "parent": "General",
+      "id": "https://github.com/jondot/awesome-devenv",
+      "title": "Dev Env",
+      "layer": 2,
+      "children": []
+    },
+    "DevOps": {
+      "parent": "General",
+      "id": "https://github.com/joubertredrat/awesome-devops",
+      "title": "DevOps",
+      "layer": 2,
+      "children": []
+    },
+    "Docker": {
+      "parent": "General",
+      "id": "https://github.com/veggiemonk/awesome-docker",
+      "title": "Docker",
+      "layer": 2,
+      "children": []
+    },
+    "Documentation": {
+      "parent": "General",
+      "id": "https://github.com/PharkMillups/beautiful-docs",
+      "title": "Documentation",
+      "layer": 2,
+      "children": []
+    },
+    "Dotfiles": {
+      "parent": "General",
+      "id": "https://github.com/webpro/awesome-dotfiles",
+      "title": "Dotfiles",
+      "layer": 2,
+      "children": []
+    },
+    "Electron": {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/awesome-electron",
+      "title": "Electron",
+      "layer": 2,
+      "children": []
+    },
+    "Emacs": {
+      "parent": "General",
+      "id": "https://github.com/emacs-tw/awesome-emacs",
+      "title": "Emacs",
+      "layer": 2,
+      "children": []
+    },
+    "Falsehood": {
+      "parent": "General",
+      "id": "https://github.com/kdeldycke/awesome-falsehood",
+      "title": "Falsehood",
+      "layer": 2,
+      "children": []
+    },
+    "FluidApp Resources": {
+      "parent": "General",
+      "id": "https://github.com/lborgav/awesome-fluidapp",
+      "title": "FluidApp Resources",
+      "layer": 2,
+      "children": []
+    },
+    "Fonts": {
+      "parent": "General",
+      "id": "https://github.com/brabadu/awesome-fonts",
+      "title": "Fonts",
+      "layer": 2,
+      "children": []
+    },
+    "Free Services": {
+      "parent": "General",
+      "id": "https://github.com/ripienaar/free-for-dev",
+      "title": "Free Services",
+      "layer": 2,
+      "children": []
+    },
+    "by @dypsilon": {
+      "parent": "Frontend",
+      "id": "https://github.com/dypsilon/frontend-dev-bookmarks",
+      "title": "by @dypsilon",
+      "layer": 3,
+      "children": []
+    },
+    "Frontend": {
+      "title": "Frontend",
+      "id": "Frontend",
+      "layer": 2,
+      "children": [
+        "by @dypsilon",
+        "by @moklick"
+      ],
+      "parent": "General"
+    },
+    "by @moklick": {
+      "parent": "Frontend",
+      "id": "https://github.com/moklick/frontend-stuff",
+      "title": "by @moklick",
+      "layer": 3,
+      "children": []
+    },
+    "Game Development": {
+      "parent": "General",
+      "id": "https://github.com/ellisonleao/magictools",
+      "title": "Game Development",
+      "layer": 2,
+      "children": []
+    },
+    "Games": {
+      "parent": "General",
+      "id": "https://github.com/leereilly/games",
+      "title": "Games",
+      "layer": 2,
+      "children": []
+    },
+    "by @Kikobeats": {
+      "parent": "GIF",
+      "id": "https://github.com/Kikobeats/awesome-gif",
+      "title": "by @Kikobeats",
+      "layer": 3,
+      "children": []
+    },
+    "GIF": {
+      "title": "GIF",
+      "id": "GIF",
+      "layer": 2,
+      "children": [
+        "by @Kikobeats",
+        "by @Syskaw"
+      ],
+      "parent": "General"
+    },
+    "by @Syskaw": {
+      "parent": "GIF",
+      "id": "https://github.com/Syskaw/awesome-gif",
+      "title": "by @Syskaw",
+      "layer": 3,
+      "children": []
+    },
+    "Gists": {
+      "parent": "General",
+      "id": "https://github.com/vsouza/awesome-gists",
+      "title": "Gists",
+      "layer": 2,
+      "children": []
+    },
+    "Git": {
+      "parent": "General",
+      "id": "https://github.com/dictcp/awesome-git",
+      "title": "Git",
+      "layer": 2,
+      "children": []
+    },
+    "GitHub": {
+      "parent": "General",
+      "id": "https://github.com/Kikobeats/awesome-github",
+      "title": "GitHub",
+      "layer": 2,
+      "children": [
+        "Browser extensions for GitHub",
+        "GitHub - Chinese",
+        "Toolkits for Github"
+      ]
+    },
+    "Browser extensions for GitHub": {
+      "parent": "GitHub",
+      "id": "https://github.com/stefanbuck/awesome-browser-extensions-for-github",
+      "title": "Browser extensions for GitHub",
+      "layer": 3,
+      "children": []
+    },
+    "GitHub - Chinese": {
+      "parent": "GitHub",
+      "id": "https://github.com/AntBranch/awesome-github",
+      "title": "GitHub - Chinese",
+      "layer": 3,
+      "children": []
+    },
+    "Toolkits for Github": {
+      "parent": "GitHub",
+      "id": "https://github.com/xohozu/awesome-toolkit",
+      "title": "Toolkits for Github",
+      "layer": 3,
+      "children": []
+    },
+    "GraphQL": {
+      "parent": "General",
+      "id": "https://github.com/chentsulin/awesome-graphql",
+      "title": "GraphQL",
+      "layer": 2,
+      "children": []
+    },
+    "Growth Hacking": {
+      "parent": "General",
+      "id": "https://github.com/btomashvili/awesome-growth-hacking",
+      "title": "Growth Hacking",
+      "layer": 2,
+      "children": []
+    },
+    "by @narkoz": {
+      "parent": "Guides",
+      "id": "https://github.com/narkoz/guides",
+      "title": "by @narkoz",
+      "layer": 3,
+      "children": []
+    },
+    "Guides": {
+      "title": "Guides",
+      "id": "Guides",
+      "layer": 2,
+      "children": [
+        "by @narkoz",
+        "by @RichardLitt"
+      ],
+      "parent": "General"
+    },
+    "by @RichardLitt": {
+      "parent": "Guides",
+      "id": "https://github.com/RichardLitt/awesome-styleguides",
+      "title": "by @RichardLitt",
+      "layer": 3,
+      "children": []
+    },
+    "HTML5": {
+      "parent": "General",
+      "id": "https://github.com/diegocard/awesome-html5",
+      "title": "HTML5",
+      "layer": 2,
+      "children": []
+    },
+    "Honeypots": {
+      "parent": "General",
+      "id": "https://github.com/paralax/awesome-honeypots",
+      "title": "Honeypots",
+      "layer": 2,
+      "children": []
+    },
+    "Images": {
+      "parent": "General",
+      "id": "https://github.com/heyalexej/awesome-images",
+      "title": "Images",
+      "layer": 2,
+      "children": []
+    },
+    "Internet of Things (IOT)": {
+      "parent": "General",
+      "id": "https://github.com/HQarroum/awesome-iot",
+      "title": "Internet of Things (IOT)",
+      "layer": 2,
+      "children": []
+    },
+    "iOS": {
+      "parent": "General",
+      "id": "https://github.com/vsouza/awesome-ios",
+      "title": "iOS",
+      "layer": 2,
+      "children": [
+        "Open Source Apps",
+        "UI"
+      ]
+    },
+    "Open Source Apps": {
+      "parent": "iOS",
+      "id": "https://github.com/dkhamsing/open-source-ios-apps",
+      "title": "Open Source Apps",
+      "layer": 3,
+      "children": []
+    },
+    "UI": {
+      "parent": "iOS",
+      "id": "https://github.com/cjwirth/awesome-ios-ui",
+      "title": "UI",
+      "layer": 3,
+      "children": []
+    },
+    "JSON": {
+      "parent": "General",
+      "id": "https://github.com/burningtree/awesome-json",
+      "title": "JSON",
+      "layer": 2,
+      "children": []
+    },
+    "JVM": {
+      "parent": "General",
+      "id": "https://github.com/deephacks/awesome-jvm",
+      "title": "JVM",
+      "layer": 2,
+      "children": []
+    },
+    "Koans": {
+      "parent": "General",
+      "id": "https://github.com/ahmdrefat/awesome-koans",
+      "title": "Koans",
+      "layer": 2,
+      "children": []
+    },
+    "Lego": {
+      "parent": "General",
+      "id": "https://github.com/adius/awesome-lego",
+      "title": "Lego",
+      "layer": 2,
+      "children": []
+    },
+    "Linux Containers": {
+      "parent": "General",
+      "id": "https://github.com/Friz-zy/awesome-linux-containers",
+      "title": "Linux Containers",
+      "layer": 2,
+      "children": []
+    },
+    "Linux resources": {
+      "parent": "General",
+      "id": "https://github.com/itech001/awesome-linux-resources",
+      "title": "Linux resources",
+      "layer": 2,
+      "children": []
+    },
+    "by @bayandin": {
+      "parent": "Lists",
+      "id": "https://github.com/bayandin/awesome-awesomeness",
+      "title": "by @bayandin",
+      "layer": 3,
+      "children": []
+    },
+    "Lists": {
+      "title": "Lists",
+      "id": "Lists",
+      "layer": 2,
+      "children": [
+        "by @bayandin",
+        "by @jnv",
+        "by @sindresorhus"
+      ],
+      "parent": "General"
+    },
+    "by @jnv": {
+      "parent": "Lists",
+      "id": "https://github.com/jnv/lists",
+      "title": "by @jnv",
+      "layer": 3,
+      "children": []
+    },
+    "by @xyNNN": {
+      "parent": "[Mac]",
+      "id": "https://github.com/xyNNN/awesome-mac",
+      "title": "by @xyNNN",
+      "layer": 3,
+      "children": []
+    },
+    "[Mac]": {
+      "title": "[Mac]",
+      "id": "[Mac]",
+      "layer": 2,
+      "children": [
+        "by @xyNNN",
+        "by @justin-j"
+      ],
+      "parent": "General"
+    },
+    "by @justin-j": {
+      "parent": "[Mac]",
+      "id": "https://github.com/justin-j/awesome-mac-apps",
+      "title": "by @justin-j",
+      "layer": 3,
+      "children": []
+    },
+    "Machine Learning": {
+      "parent": "General",
+      "id": "https://github.com/josephmisiti/awesome-machine-learning",
+      "title": "Machine Learning",
+      "layer": 2,
+      "children": []
+    },
+    "Malware Analysis": {
+      "parent": "General",
+      "id": "https://github.com/rshipp/awesome-malware-analysis",
+      "title": "Malware Analysis",
+      "layer": 2,
+      "children": []
+    },
+    "Material Design": {
+      "parent": "General",
+      "id": "https://github.com/sachin1092/awesome-material",
+      "title": "Material Design",
+      "layer": 2,
+      "children": []
+    },
+    "Mobile marketing and development": {
+      "parent": "General",
+      "id": "https://github.com/alec-c4/awesome-mobile",
+      "title": "Mobile marketing and development",
+      "layer": 2,
+      "children": []
+    },
+    "Monitoring": {
+      "parent": "General",
+      "id": "https://github.com/crazy-canux/awesome-monitoring",
+      "title": "Monitoring",
+      "layer": 2,
+      "children": []
+    },
+    "Motion Design for Web": {
+      "parent": "General",
+      "id": "https://github.com/lucasmaiaesilva/awesome-motion-design-web",
+      "title": "Motion Design for Web",
+      "layer": 2,
+      "children": []
+    },
+    "Nginx": {
+      "parent": "General",
+      "id": "https://github.com/fcambus/nginx-resources",
+      "title": "Nginx",
+      "layer": 2,
+      "children": []
+    },
+    "by @vredniy": {
+      "parent": "Newsletters",
+      "id": "https://github.com/vredniy/awesome-newsletters",
+      "title": "by @vredniy",
+      "layer": 3,
+      "children": []
+    },
+    "Newsletters": {
+      "title": "Newsletters",
+      "id": "Newsletters",
+      "layer": 2,
+      "children": [
+        "by @vredniy",
+        "by @webpro",
+        "by @mpron"
+      ],
+      "parent": "General"
+    },
+    "by @webpro": {
+      "parent": "Newsletters",
+      "id": "https://github.com/webpro/awesome-newsletters",
+      "title": "by @webpro",
+      "layer": 3,
+      "children": []
+    },
+    "by @mpron": {
+      "parent": "Newsletters",
+      "id": "https://github.com/mpron/awesome-newsletters",
+      "title": "by @mpron",
+      "layer": 3,
+      "children": []
+    },
+    "No Login Web Apps": {
+      "parent": "General",
+      "id": "https://github.com/aviaryan/awesome-no-login-web-apps",
+      "title": "No Login Web Apps",
+      "layer": 2,
+      "children": []
+    },
+    "Open Science": {
+      "parent": "General",
+      "id": "https://github.com/silky/awesome-open-science",
+      "title": "Open Science",
+      "layer": 2,
+      "children": []
+    },
+    "Open Source Photography": {
+      "parent": "General",
+      "id": "https://github.com/Syskaw/awesome-OpenSourcePhotography",
+      "title": "Open Source Photography",
+      "layer": 2,
+      "children": []
+    },
+    "Papers": {
+      "parent": "General",
+      "id": "https://github.com/papers-we-love/papers-we-love",
+      "title": "Papers",
+      "layer": 2,
+      "children": []
+    },
+    "Podcasts": {
+      "parent": "General",
+      "id": "https://github.com/Ghosh/awesome-podcasts",
+      "title": "Podcasts",
+      "layer": 2,
+      "children": []
+    },
+    "Pipelines": {
+      "parent": "General",
+      "id": "https://github.com/pditommaso/awesome-pipeline",
+      "title": "Pipelines",
+      "layer": 2,
+      "children": []
+    },
+    "Product Manager": {
+      "parent": "General",
+      "id": "https://github.com/hugo53/awesome-ProductManager",
+      "title": "Product Manager",
+      "layer": 2,
+      "children": []
+    },
+    "Pentester": {
+      "parent": "General",
+      "id": "https://github.com/m1guelpf/awesome-pentester",
+      "title": "Pentester",
+      "layer": 2,
+      "children": []
+    },
+    "Quick Look Plugins": {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/quick-look-plugins",
+      "title": "Quick Look Plugins",
+      "layer": 2,
+      "children": []
+    },
+    "Random-Forest": {
+      "parent": "General",
+      "id": "https://github.com/kjw0612/awesome-random-forest",
+      "title": "Random-Forest",
+      "layer": 2,
+      "children": []
+    },
+    "RaspberryPI": {
+      "parent": "General",
+      "id": "https://github.com/blackout314/awesome-raspberry-pi",
+      "title": "RaspberryPI",
+      "layer": 2,
+      "children": []
+    },
+    "React Native": {
+      "parent": "General",
+      "id": "https://github.com/jondot/awesome-react-native",
+      "title": "React Native",
+      "layer": 2,
+      "children": []
+    },
+    "README": {
+      "parent": "General",
+      "id": "https://github.com/matiassingers/awesome-readme",
+      "title": "README",
+      "layer": 2,
+      "children": []
+    },
+    "Regex": {
+      "parent": "General",
+      "id": "https://github.com/aloisdg/awesome-regex",
+      "title": "Regex",
+      "layer": 2,
+      "children": []
+    },
+    "Remote Job": {
+      "parent": "General",
+      "id": "https://github.com/lukasz-madon/awesome-remote-job",
+      "title": "Remote Job",
+      "layer": 2,
+      "children": []
+    },
+    "Remote Work": {
+      "parent": "General",
+      "id": "https://github.com/hugo53/awesome-RemoteWork",
+      "title": "Remote Work",
+      "layer": 2,
+      "children": []
+    },
+    "REST": {
+      "parent": "General",
+      "id": "https://github.com/marmelab/awesome-rest",
+      "title": "REST",
+      "layer": 2,
+      "children": []
+    },
+    "Robotics": {
+      "parent": "General",
+      "id": "https://github.com/Kiloreux/awesome-robotics",
+      "title": "Robotics",
+      "layer": 2,
+      "children": []
+    },
+    "RNN": {
+      "parent": "General",
+      "id": "https://github.com/kjw0612/awesome-rnn",
+      "title": "RNN",
+      "layer": 2,
+      "children": []
+    },
+    "Science Fiction": {
+      "parent": "General",
+      "id": "https://github.com/sindresorhus/awesome-scifi",
+      "title": "Science Fiction",
+      "layer": 2,
+      "children": []
+    },
+    "by @marcobiedermann": {
+      "parent": "Search Engine Optimization (SEO)",
+      "id": "https://github.com/marcobiedermann/search-engine-optimization",
+      "title": "by @marcobiedermann",
+      "layer": 3,
+      "children": []
+    },
+    "Search Engine Optimization (SEO)": {
+      "title": "Search Engine Optimization (SEO)",
+      "id": "Search Engine Optimization (SEO)",
+      "layer": 2,
+      "children": [
+        "by @marcobiedermann",
+        "by @teles"
+      ],
+      "parent": "General"
+    },
+    "by @teles": {
+      "parent": "Search Engine Optimization (SEO)",
+      "id": "https://github.com/teles/awesome-seo",
+      "title": "by @teles",
+      "layer": 3,
+      "children": []
+    },
+    "Security": {
+      "parent": "General",
+      "id": "https://github.com/sbilly/awesome-security",
+      "title": "Security",
+      "layer": 2,
+      "children": []
+    },
+    "Selfhosted": {
+      "parent": "General",
+      "id": "https://github.com/Kickball/awesome-selfhosted",
+      "title": "Selfhosted",
+      "layer": 2,
+      "children": []
+    },
+    "Services Engineering": {
+      "parent": "General",
+      "id": "https://github.com/mmcgrana/services-engineering",
+      "title": "Services Engineering",
+      "layer": 2,
+      "children": []
+    },
+    "Sheet Music": {
+      "parent": "General",
+      "id": "https://github.com/adius/awesome-sheet-music",
+      "title": "Sheet Music",
+      "layer": 2,
+      "children": []
+    },
+    "Slack": {
+      "parent": "General",
+      "id": "https://github.com/matiassingers/awesome-slack",
+      "title": "Slack",
+      "layer": 2,
+      "children": []
+    },
+    "Sound": {
+      "parent": "General",
+      "id": "https://github.com/hwclass/awesome-sound",
+      "title": "Sound",
+      "layer": 2,
+      "children": []
+    },
+    "Space": {
+      "parent": "General",
+      "id": "https://github.com/elburz/awesome-space",
+      "title": "Space",
+      "layer": 2,
+      "children": []
+    },
+    "Speech and Natural Language Processing": {
+      "parent": "General",
+      "id": "https://github.com/edobashira/speech-language-processing",
+      "title": "Speech and Natural Language Processing",
+      "layer": 2,
+      "children": [
+        "NLP with Ruby"
+      ]
+    },
+    "NLP with Ruby": {
+      "parent": "Speech and Natural Language Processing",
+      "id": "https://github.com/arbox/nlp-with-ruby",
+      "title": "NLP with Ruby",
+      "layer": 3,
+      "children": []
+    },
+    "Sphinx Documentation": {
+      "parent": "General",
+      "id": "https://github.com/yoloseem/awesome-sphinxdoc",
+      "title": "Sphinx Documentation",
+      "layer": 2,
+      "children": []
+    },
+    "Startup": {
+      "parent": "General",
+      "id": "https://github.com/KrishMunot/awesome-startup",
+      "title": "Startup",
+      "layer": 2,
+      "children": []
+    },
+    "Static Analysis": {
+      "parent": "General",
+      "id": "https://github.com/mre/awesome-static-analysis/",
+      "title": "Static Analysis",
+      "layer": 2,
+      "children": []
+    },
+    "Styleguides": {
+      "parent": "General",
+      "id": "https://github.com/RichardLitt/awesome-styleguides",
+      "title": "Styleguides",
+      "layer": 2,
+      "children": []
+    },
+    "Sublime Text": {
+      "parent": "General",
+      "id": "https://github.com/dreikanter/sublime-bookmarks",
+      "title": "Sublime Text",
+      "layer": 2,
+      "children": []
+    },
+    "SVG": {
+      "parent": "General",
+      "id": "https://github.com/willianjusten/awesome-svg",
+      "title": "SVG",
+      "layer": 2,
+      "children": []
+    },
+    "Swedish": {
+      "parent": "General",
+      "id": "https://github.com/gurre/awesome-swedish-opensource",
+      "title": "Swedish",
+      "layer": 2,
+      "children": []
+    },
+    "Sysadmin": {
+      "parent": "General",
+      "id": "https://github.com/kahun/awesome-sysadmin",
+      "title": "Sysadmin",
+      "layer": 2,
+      "children": []
+    },
+    "Talks": {
+      "parent": "General",
+      "id": "https://github.com/JanVanRyswyck/awesome-talks",
+      "title": "Talks",
+      "layer": 2,
+      "children": [
+        "Gaming"
+      ]
+    },
+    "Gaming": {
+      "parent": "Talks",
+      "id": "https://github.com/hzoo/awesome-gametalks",
+      "title": "Gaming",
+      "layer": 3,
+      "children": []
+    },
+    "Telegram": {
+      "parent": "General",
+      "id": "https://github.com/ebertti/awesome-telegram",
+      "title": "Telegram",
+      "layer": 2,
+      "children": []
+    },
+    "Test Automation": {
+      "parent": "General",
+      "id": "https://github.com/atinfo/awesome-test-automation",
+      "title": "Test Automation",
+      "layer": 2,
+      "children": []
+    },
+    "Tools": {
+      "parent": "General",
+      "id": "https://github.com/cjbarber/ToolsOfTheTrade",
+      "title": "Tools",
+      "layer": 2,
+      "children": []
+    },
+    "Unity": {
+      "parent": "General",
+      "id": "https://github.com/RyanNielson/awesome-unity",
+      "title": "Unity",
+      "layer": 2,
+      "children": []
+    },
+    "UI Styleguide": {
+      "parent": "General",
+      "id": "https://github.com/kevinwuhoo/ui-styleguides",
+      "title": "UI Styleguide",
+      "layer": 2,
+      "children": []
+    },
+    "Vagrant": {
+      "parent": "General",
+      "id": "https://github.com/iJackUA/awesome-vagrant",
+      "title": "Vagrant",
+      "layer": 2,
+      "children": []
+    },
+    "by @akrawchyk": {
+      "parent": "Vim",
+      "id": "https://github.com/akrawchyk/awesome-vim",
+      "title": "by @akrawchyk",
+      "layer": 3,
+      "children": []
+    },
+    "Vim": {
+      "title": "Vim",
+      "id": "Vim",
+      "layer": 2,
+      "children": [
+        "by @akrawchyk",
+        "by @matteocrippa"
+      ],
+      "parent": "General"
+    },
+    "Web Performance Optimization": {
+      "parent": "General",
+      "id": "https://github.com/davidsonfellipe/awesome-wpo",
+      "title": "Web Performance Optimization",
+      "layer": 2,
+      "children": []
+    },
+    "WebComponents": {
+      "parent": "General",
+      "id": "https://github.com/mateusortiz/webcomponents-the-right-way",
+      "title": "WebComponents",
+      "layer": 2,
+      "children": []
+    },
+    "Wordpress": {
+      "parent": "General",
+      "id": "https://github.com/miziomon/awesome-wordpress",
+      "title": "Wordpress",
+      "layer": 2,
+      "children": []
+    },
+    "Workshops": {
+      "parent": "General",
+      "id": "https://github.com/therebelrobot/awesome-workshopper",
+      "title": "Workshops",
+      "layer": 2,
+      "children": []
+    },
+    "Xamarin": {
+      "parent": "General",
+      "id": "https://github.com/benoitjadinon/awesome-xamarin",
+      "title": "Xamarin",
+      "layer": 2,
+      "children": []
+    }
+  }
+}
