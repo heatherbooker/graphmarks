@@ -1,6 +1,7 @@
 .top-left {
     left: 50px;
 }
+
 .logo-highlight {
     background-color: #fff;
     position: relative;
@@ -26,7 +27,6 @@
   color: black; 
   text-decoration: underline;
 }
-
 img {
     height: 30px;
     position: relative;

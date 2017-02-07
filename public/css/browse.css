@@ -1,0 +1,30 @@
+.card.medium{
+  height: 300px;
+}
+.card-title.brighten{
+  color: #EE6E73;
+}
+
+.top-left {
+    left: 50px;
+}
+
+.logo-highlight {
+    background-color: #fff;
+    position: relative;
+    color: #EE6E73;
+    display: inline;
+    font-size: 3rem;
+    padding: 10;
+    white-space: normal;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+a.inlink:hover{
+  color:black;
+}
+a.inlink:visited{
+  color:black;
+}
