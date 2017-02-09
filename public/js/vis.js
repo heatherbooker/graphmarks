@@ -9,7 +9,7 @@ var svg = d3.select("svg")
     }))
     .append('g');
 
-var color = ['#ee6e73', '#78909C', '#ee6e73', '#78909C'];
+var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 // function makedict(ge){
 //   nodedict={}
 //   ge.forEach(function(elt, index){
@@ -57,9 +57,9 @@ d3.json("graphmarks/rcrs/awesome-awesomeness.json", function(error, graph) { // 
         node.exit().remove();
         newnodes = [];
         newnodes = node.enter().append('g').attr('class', 'nodeg');
-
+        color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
         newcircles = newnodes.append("circle").attr("fill", function(d) {
-            return color[d.group];
+            return color[d.layer];
         }).attr("r", 8).attr('title', function(d) {return d.title}).attr('id', function(d) {return d.id}).attr('clicked', 'false'); // this shouldn't be automatically false. 
         circle = svg.selectAll('circle');
 

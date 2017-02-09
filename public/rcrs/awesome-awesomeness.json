@@ -18,7 +18,7 @@
       "title": "Programming Languages",
       "parent":"Awesome-Awesomeness",
       "id": "Programming Languages",
-      "layer": 2,
+      "layer": 1,
       "children": [
         "Ansible",
         "AutoHotkey",
@@ -394,7 +394,7 @@
     {
       "title": "General",
       "id": "General",
-      "layer": 2,
+      "layer": 1,
       "parent":"Awesome-Awesomeness",
       "children": [
         ".htaccess",
