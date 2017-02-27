@@ -15,13 +15,22 @@ html
         a.brand-logo.top-left(href='/') graphmarks.co
         ul#nav-mobile.right.hide-on-med-and-down
           li
-            a(href='#whatisthis-modal') what is this?  
-            
-    #whatisthis-modal
-      .modal-content
+            a(href='#gm-whatisthis') what is this?  
+
+    #gm-whatisthis.modal.gm-whatisthis-modal
+      .gm-modal-content
         h4 what is graphmarks?
-        p graphmarks ipsem lorem dolor bean dog face hamburgler salsa blues greens. welp bottom borrowed cake hat stir fry tottering a lot.
-        p even more things about graphmarks. did you know people hate super realistic 3D printed bananas? true story.
+        p 
+          span.gm-modal-tagline
+            b graphmarks 
+            | is a fun and interactive graph-based visualization tool for your personal bookmarks or subject-related lists of links.
+        p A graphmarks visualization represents bookmarks (or links!) in the form of a graph tree, with draggable nodes and connections. You can download the graphmarks chrome extension to explore your bookmarks folder in a whole new way! You can click through folders to expand and collapse nodes, and spatially rearrange concepts to create a clickable brain map of sorts. 
+          a(class="gm-link" href="/vis.html") Try it!
+        p We think bookmark graphs are a great reflection of your interests and tastes online. So, go ahead - curate your own personal directory of the internet, then access it from anywhere, or share it with the world at 
+          a(class="gm-link" href="\\www.graphmarks.co") graphmarks.co
+          | . Don’t forget to check out the graphmarks created by 
+          a(class="gm-link" href="\\www.graphmarks.co/browse.html") our community
+          | ! 
       .modal-footer
         a(href="#!").modal-action.modal-close.waves-effect.btn-flat close
 
@@ -53,4 +62,5 @@ html
     $(function() {
       $('#search').css({'height': (window.innerHeight) + 'px'});
       $('#search').css({'width': window.innerWidth + 'px'});
+      $('.modal').modal();
     });
