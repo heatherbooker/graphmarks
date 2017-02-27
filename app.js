@@ -40,9 +40,6 @@ app.get('/',function(req,res){ res.render('index')})
 app.get('/vis.html', function(req,res){
   res.render('vis');
 })
-app.get('/whatisthis.html', function(req,res){
-  res.render('whatisthis');
-})
 app.get('/bookmarks.html', function(req,res){
   res.render('bookmarks');
 })
