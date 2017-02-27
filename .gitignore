@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 ignore/*
 *.DS_Store
+access.log
