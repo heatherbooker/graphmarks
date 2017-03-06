@@ -18,6 +18,14 @@ var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 //   return nodedict
 // }
 
+function resetnodes(){
+  console.log('resetted nodes.')
+}
+function savenodes(){
+  console.log('saved nodes.')
+}
+
+
 d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
     allnodes = graph.allnodes;
     delete graph.allnodes;

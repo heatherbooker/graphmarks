@@ -8,9 +8,9 @@ html
     link(href='/css/material.min.css', rel='stylesheet')
     link(href='/css/styles.css', rel='stylesheet')
   body
-    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab.mdl-button--colored.btn1
+    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab.mdl-button--colored.btn1(onclick='resetnodes()')
       i.material-icons replay
-    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab.mdl-button--colored.btn2
+    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab.mdl-button--colored.btn2(onclick='savenodes()')
         i.material-icons save
     svg
     script(src='https://d3js.org/d3.v4.min.js')
