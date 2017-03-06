@@ -3,19 +3,19 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(href='graphmarks/css/materialize.css', rel='stylesheet')
-    link(href='graphmarks/css/styles.css', rel='stylesheet')
+    link(href='css/materialize.css', rel='stylesheet')
+    link(href='css/styles.css', rel='stylesheet')
     link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
     link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
   body
     script(src='https://code.jquery.com/jquery-3.1.1.min.js', integrity='sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=', crossorigin='anonymous')
-    script(src='graphmarks/js/materialize.js', defer='')
+    script(src='/js/materialize.js', defer='')
     nav
       .nav-wrapper(style="font-weight: 300;")
-        a.brand-logo.top-left(href='/graphmarks/') graphmarks.co
+        a.brand-logo.top-left(href='/') graphmarks.co
         ul#nav-mobile.right.hide-on-med-and-down
           li
-            a(href='/graphmarks/whatisthis.html') what is this?  
+            a(href='/whatisthis.html') what is this?  
     #search.valign-wrapper
       .container
         .center-align
@@ -32,13 +32,13 @@ html
               br
               ul
                 li 
-                  a(href='/graphmarks/vis.html') see an awesome demo...
+                  a(href='/vis.html') see an awesome demo...
                 br
                 li 
-                  a(href='/graphmarks/browse.html') browse graphmarks from the community...
+                  a(href='/browse.html') browse graphmarks from the community...
                 br
                 li 
-                  a(href='/graphmarks/bookmarks.html') download the chrome extension and transform your bookmarks folder...
+                  a(href='/bookmarks.html') download the chrome extension and transform your bookmarks folder...
                 br
   script.
     $(function() {

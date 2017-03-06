@@ -18,7 +18,7 @@ var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 //   return nodedict
 // }
 
-d3.json("graphmarks/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
+d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
     allnodes = graph.allnodes;
     delete graph.allnodes;
 
