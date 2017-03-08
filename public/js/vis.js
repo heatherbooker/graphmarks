@@ -10,25 +10,31 @@ var svg = d3.select("svg")
     .append('g');
 
 var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
-// function makedict(ge){
-//   nodedict={}
-//   ge.forEach(function(elt, index){
-//     nodedict[elt.id]= index; 
-//   })
-//   return nodedict
-// }
-
-function resetnodes(){
-  console.log('resetted nodes.')
-}
-function savenodes(){
-  console.log('saved nodes.')
-}
-
 
 d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
     allnodes = graph.allnodes;
     delete graph.allnodes;
+    $(".btn1").on( "click", rewindgraph);
+    $(".btn2").on( "click", save);
+    function rewindgraph(){
+      var moo=JSON.parse(window.localStorage.moo);
+      graph.nodes= graph.nodes.map(function(elt,id){
+        elt.x= moo[id]['x'];
+        elt.y= moo[id]['y'];
+        elt.fx= moo[id]['fx'];
+        elt.fy= moo[id]['fy'];
+        return elt;
+      })
+      simulation.nodes(graph.nodes);
+      simulation.force("link").links(graph.links);
+      simulation.restart();
+    };
+    // var socket = io.connect();
+    function save(){
+      window.localStorage.moo= JSON.stringify(graph.nodes);
+      // socket.on('new_checkin', function(data){console.log('moo')})
+      console.log('save')
+    }
 
     var simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).distance(200))
@@ -37,7 +43,10 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
         .force("y", d3.forceY())
         .force("center", d3.forceCenter(width / 2, height / 2))
         .alphaTarget(0)
-        .on("tick", ticked);
+        .on("tick", ticked)
+        .on('end', function(){
+          window.localStorage.moo= JSON.stringify(graph.nodes); 
+        });
 
     var link = svg.append("g").selectAll(".link");
     var node = svg.append("g").selectAll(".node");
