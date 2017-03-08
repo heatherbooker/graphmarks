@@ -96,12 +96,15 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
 
     function loadgraph() {
       var nodedict=window.nodedict;
-      graph.nodes= graph.nodes.map( function(elt){
+      graph.nodes= graph.nodes.filter( function(elt){ return nodedict[elt.id];}).map( function(elt){
         elt.x= nodedict[elt.id]['x'];
         elt.y= nodedict[elt.id]['y'];
         elt.fx= nodedict[elt.id]['fx'];
         elt.fy= nodedict[elt.id]['fy'];
         return elt;
+      })
+      graph.links= graph.links.filter(function(elt){
+        return nodedict[elt.source.id] && nodedict[elt.target.id];
       })
       restart();
     };
