@@ -13,28 +13,10 @@ var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 
 d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
     allnodes = graph.allnodes;
-    delete graph.allnodes;
-    $(".btn1").on( "click", rewindgraph);
-    $(".btn2").on( "click", save);
-    function rewindgraph(){
-      var moo=JSON.parse(window.localStorage.moo);
-      graph.nodes= graph.nodes.map(function(elt,id){
-        elt.x= moo[id]['x'];
-        elt.y= moo[id]['y'];
-        elt.fx= moo[id]['fx'];
-        elt.fy= moo[id]['fy'];
-        return elt;
-      })
-      simulation.nodes(graph.nodes);
-      simulation.force("link").links(graph.links);
-      simulation.restart();
-    };
-    // var socket = io.connect();
-    function save(){
-      window.localStorage.moo= JSON.stringify(graph.nodes);
-      // socket.on('new_checkin', function(data){console.log('moo')})
-      console.log('save')
-    }
+    delete graph.allnodes
+
+    $(".btn1").on( "click", loadgraph);
+    $(".btn2").on( "click", savegraph);
 
     var simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).distance(200))
@@ -110,6 +92,32 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
         simulation.nodes(graph.nodes);
         simulation.force("link").links(graph.links);
         simulation.restart();
+    }
+
+    function loadgraph() {
+      var nodedict=window.nodedict;
+      graph.nodes= graph.nodes.map( function(elt){
+        elt.x= nodedict[elt.id]['x'];
+        elt.y= nodedict[elt.id]['y'];
+        elt.fx= nodedict[elt.id]['fx'];
+        elt.fy= nodedict[elt.id]['fy'];
+        return elt;
+      })
+      restart();
+    };
+
+    function savegraph() {
+      var nodedict= {};
+      graph.nodes.forEach(function(elt){
+        nodedict[elt.id]={
+          x: elt.x,
+          y: elt.y,
+          fx: elt.fx,
+          fy: elt.fy
+        };
+      })
+      window.nodedict= nodedict;
+      console.log('saved')
     }
 
     function dragstarted(d) {
