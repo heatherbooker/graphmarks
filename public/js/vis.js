@@ -12,11 +12,11 @@ var svg = d3.select("svg")
 var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 
 d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need to return all nodes as an array first and then take out the ones i don't need. 
-    allnodes = graph.allnodes;
+    var allnodes = graph.allnodes;
     delete graph.allnodes
 
-    $(".btn1").on( "click", loadgraph);
-    $(".btn2").on( "click", savegraph);
+    $(".btn1").on("click", loadgraph);
+    $(".btn2").on("click", savegraph);
 
     var simulation = d3.forceSimulation(graph.nodes)
         .force("link", d3.forceLink(graph.links).distance(200))
@@ -26,17 +26,17 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
         .force("center", d3.forceCenter(width / 2, height / 2))
         .alphaTarget(0)
         .on("tick", ticked)
-        .on('end', function(){
-          window.localStorage.moo= JSON.stringify(graph.nodes); 
+        .on('end', function() {
+            window.localStorage.moo = JSON.stringify(graph.nodes);
         });
 
     var link = svg.append("g").selectAll(".link");
     var node = svg.append("g").selectAll(".node");
     restart();
-    nodesnow = graph.nodes;
+    var nodesnow = graph.nodes;
     nodesnow.forEach(function(elt, i) {
         if (elt.parent != "") {
-            parentindex = nodesnow.findIndex(function(belt) {
+            var parentindex = nodesnow.findIndex(function(belt) {
                 return belt.title == elt.parent
             })
             graph.links.push({
@@ -54,12 +54,15 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
             return d.id;
         });
         node.exit().remove();
-        newnodes = [];
+        var newnodes = [];
         newnodes = node.enter().append('g').attr('class', 'nodeg');
-        color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
         newcircles = newnodes.append("circle").attr("fill", function(d) {
             return color[d.layer];
-        }).attr("r", 8).attr('title', function(d) {return d.title}).attr('id', function(d) {return d.id}).attr('clicked', 'false'); // this shouldn't be automatically false. 
+        }).attr("r", 8).attr('title', function(d) {
+            return d.title
+        }).attr('id', function(d) {
+            return d.id
+        }).attr('clicked', 'false'); // this shouldn't be automatically false. 
         circle = svg.selectAll('circle');
 
         circle.on("click", clicked)
@@ -95,32 +98,33 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
     }
 
     function loadgraph() {
-      var nodedict=window.nodedict;
-      graph.nodes= graph.nodes.filter( function(elt){ return nodedict[elt.id];}).map( function(elt){
-        elt.x= nodedict[elt.id]['x'];
-        elt.y= nodedict[elt.id]['y'];
-        elt.fx= nodedict[elt.id]['fx'];
-        elt.fy= nodedict[elt.id]['fy'];
-        return elt;
-      })
-      graph.links= graph.links.filter(function(elt){
-        return nodedict[elt.source.id] && nodedict[elt.target.id];
-      })
-      restart();
+        var nodedict = window.nodedict;
+        graph.nodes = graph.nodes.filter(function(elt) {
+            return nodedict[elt.id];
+        }).map(function(elt) {
+            elt.x = nodedict[elt.id]['x'];
+            elt.y = nodedict[elt.id]['y'];
+            elt.fx = nodedict[elt.id]['fx'];
+            elt.fy = nodedict[elt.id]['fy'];
+            return elt;
+        })
+        graph.links = graph.links.filter(function(elt) {
+            return nodedict[elt.source.id] && nodedict[elt.target.id];
+        })
+        restart();
     };
 
     function savegraph() {
-      var nodedict= {};
-      graph.nodes.forEach(function(elt){
-        nodedict[elt.id]={
-          x: elt.x,
-          y: elt.y,
-          fx: elt.fx,
-          fy: elt.fy
-        };
-      })
-      window.nodedict= nodedict;
-      console.log('saved')
+        var nodedict = {};
+        graph.nodes.forEach(function(elt) {
+            nodedict[elt.id] = {
+                x: elt.x,
+                y: elt.y,
+                fx: elt.fx,
+                fy: elt.fy
+            };
+        })
+        window.nodedict = nodedict;
     }
 
     function dragstarted(d) {
@@ -148,10 +152,7 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
         })
         var newchild = []
         if (thisthing.attr('clicked') == 'false') { // add nodes and add links. 
-            console.log('clicked')
-
             thischildren = allnodes[thistitle].children;
-
             if (thischildren.length > 0) {
                 for (var i = 0; i < thischildren.length; i++) {
                     newchild.push(graph.nodes.length)
@@ -169,39 +170,33 @@ d3.json("/rcrs/awesome-awesomeness.json", function(error, graph) { // may need t
                 thisthing.attr('clicked', 'true')
             }
         } else {
-          console.log('unclicked')
-          thisthing.attr('clicked', 'false')
+            thisthing.attr('clicked', 'false')
             start = graph.nodes.findIndex(function(elt) {
                 return elt.title == allnodes[thistitle].children[0]
             })
-            if (start!=-1){
-              deletecount = allnodes[thistitle].children.length;
-              graph.nodes.splice(start, deletecount) // remove all child nodes
-              console.log(graph.nodes)
-              
-              for (var j= 0; j<deletecount; j++){
-                index= graph.links.findIndex(function(elt) {
-                    return elt.target.title == allnodes[thistitle].children[j]; 
-                });
-                graph.links[index]
-                graph.links.splice(index,1) // remove all links to child nodes. 
-              }
-              restart()
+            if (start != -1) {
+                deletecount = allnodes[thistitle].children.length;
+                graph.nodes.splice(start, deletecount)
+                for (var j = 0; j < deletecount; j++) {
+                    index = graph.links.findIndex(function(elt) {
+                        return elt.target.title == allnodes[thistitle].children[j];
+                    });
+                    graph.links[index]
+                    graph.links.splice(index, 1)
+                }
+                restart()
             }
         }
     }
-    
+
     function dblclicked(d) {
-      console.log('doubleclicked');
-      var thisthing = d3.select(this);
-      var thistitle = thisthing.attr('title');
-      var thisid = thisthing.attr('id');
-      console.log(thistitle, thisid)
-      if (thistitle!=thisid){
-        window.open(thisid);
-      }
+        var thisthing = d3.select(this);
+        var thistitle = thisthing.attr('title');
+        var thisid = thisthing.attr('id');
+        if (thistitle != thisid) {
+            window.open(thisid);
+        }
     }
-    //if this.title !=this.id new window with this.id}
 
     function ticked() {
         circle.attr("cx", function(d) {
