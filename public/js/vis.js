@@ -1,13 +1,20 @@
 var width = window.innerWidth;
 var height = window.innerHeight;
 
+var zoom = d3.zoom()
+	.on("zoom", zoomed);
+
 var svg = d3.select("svg")
     .attr('height', height)
     .attr('width', width)
-    .call(d3.zoom().on("zoom", function() {
-        svg.attr("transform", d3.event.transform)
-    }))
+    .call(zoom)
     .append('g');
+
+zoom.scaleTo(svg, 0.4);
+
+function zoomed(){
+  svg.attr("transform", d3.event.transform)
+}
 
 var color = ['#ee6e73', '#ee6e73', '#78909C', '#78909C'];
 
