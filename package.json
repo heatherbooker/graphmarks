@@ -1,7 +1,7 @@
 {
-  "name": "bookmark-visualizer",
+  "name": "graphmarks",
   "version": "1.0.0",
-  "description": "### to run: ```bash git clone https://github.com/heatherbooker/bookmark-visualizer.git ```",
+  "description": "your bookmarks look so good.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heatherbooker/bookmark-visualizer.git"
+    "url": "git+https://github.com/heatherbooker/graphmarks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heatherbooker/bookmark-visualizer/issues"
+    "url": "https://github.com/heatherbooker/graphmarks/issues"
   },
-  "homepage": "https://github.com/heatherbooker/bookmark-visualizer#readme",
+  "homepage": "https://github.com/heatherbooker/graphmarks#readme",
   "dependencies": {
     "body-parser": "^1.16.0",
     "cheerio": "0.22.0",
